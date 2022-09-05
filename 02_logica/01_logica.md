@@ -14,7 +14,7 @@ Antes de começarmos a falar sobre Lógica de Programação, vamos refletir sobr
 
 
 
-<h2>Lógica</h2>
+<h2>1. Lógica</h2>
 
 
 
@@ -36,7 +36,7 @@ Da mesma forma que utilizamos nossos conhecimentos prévios para tomar decisões
 
 
 
-<h2>Programação</h2>
+<h2>2. Programação</h2>
 
 
 
@@ -54,7 +54,7 @@ Diferentes linguagens de programação funcionam de diferentes modos. Por  esse 
 
 
 
-<h2>Algoritmo</h2>
+<h2>3. Algoritmo</h2>
 
 
 
@@ -124,7 +124,7 @@ Observe que neste o exemplo (fazer claras em neve), o nível de detalhamento é 
 
 
 
-<h3>Tipos de Algoritmo</h3>
+<h3>3.1. Tipos de Algoritmo</h3>
 
 
 
@@ -134,7 +134,7 @@ Os tipos de algoritmos mais usados são:
 2. Fluxograma 
 3. Pseudocódigo
 
-<h4>Descrição Narrativa</h4>
+<h4>3.1.1. Descrição Narrativa</h4>
 
 Os algoritmos são expressos diretamente em **Linguagem Natural**, ou seja, a sequência de passos é descrita em nossa língua nativa (português). Veja o exemplo abaixo:
 
@@ -144,7 +144,7 @@ Os algoritmos são expressos diretamente em **Linguagem Natural**, ou seja, a se
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Não é necessário aprender novos conceitos, pois a língua natural já é bem conhecida. | A língua natural dá oportunidade para várias interpretações e ambiguidades, dificultando a transcrição desse algoritmo para programa. |
 
-<h4>Fluxograma</h4>
+<h4>3.1.2. Fluxograma</h4>
 
 É uma **Representação Gráfica** em que formas geométricas diferentes implicam em ações (instruções e comandos) distintas. O Fluxograma é mais preciso que a Descrição Narrativa, porém não se preocupa com os detalhes de implementação da Linguagem de Programação escolhida. Veja abaixo o Fluxograma do Cálculo da Média:
 
@@ -156,7 +156,7 @@ Os algoritmos são expressos diretamente em **Linguagem Natural**, ou seja, a se
 
 No próximo capítulo abordaremos o tópico Fluxograma com mais detalhes.
 
-<h4>Pseudocódigo</h4>
+<h4>3.1.3. Pseudocódigo</h4>
 
 Nesta representação, os algoritmos são expressos com um alto nível de detalhes, como a definição dos tipos das variáveis usadas no algoritmo, por exemplo.
 
