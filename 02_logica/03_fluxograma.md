@@ -43,3 +43,6 @@ Para construir os Fluxogramas foi utilizado o aplicativo **Draw.io**, disponíve
 
 <div align="left"><img src="https://i.imgur.com/1lTv41s.png" title="source: imgur.com" width="30px"/> <a href="https://www.diagrams.net/" target="_blank"><b>Draw.io - Instalador</b></a>
 
+<br /><br />
+
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
