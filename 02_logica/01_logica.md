@@ -44,7 +44,7 @@ Da mesma forma que utilizamos nossos conhecimentos prévios para tomar decisões
 
 Diferentes linguagens de programação funcionam de diferentes modos. Por  esse motivo, os programadores podem criar programas muito diferentes para diferentes linguagens; muito embora, teoricamente, a maioria das  linguagens possa ser usada para criar qualquer programa. Na imagem abaixo, temos algumas linguagens de programação:
 
-<a href="https://imgur.com/Gl697LP"><img src="https://i.imgur.com/Gl697LP.png" title="source: imgur.com" /></a>
+<div align="center"><img src="https://i.imgur.com/Gl697LP.png" title="source: imgur.com" /></div>
 
 **Software** é um nome coletivo para vários programas de computadores e dados integrados. Um software pode ser desenvolvido para rodar em um computador (PC ou Notebook),  dispositivo móvel (Celulares e Tablets), conhecidos como ***Mobile*** ou em qualquer equipamento que permita sua execução.  Existem várias linguagens e elas servem para muitos propósitos. Alguns  óbvios, como criar um software, outros menos óbvios, como controlar um carro ou uma geladeira.
 
@@ -70,13 +70,7 @@ Como exemplos de algoritmos podemos citar:
 
 1. Um matemático, para resolver uma equação de primeiro grau; 
 
-   <img  src="https://latex.codecogs.com/svg.image?\bg{white}2x&space;-6&space;=&space;0"  title="https://latex.codecogs.com/svg.image?\inline \LARGE \Delta = b^2  - 4ac " />
-
-   <img  src="https://latex.codecogs.com/svg.image?\inline&space;\bg{white}2x&space;=&space;6"  title="https://latex.codecogs.com/svg.image?\inline \LARGE x = \frac{-b   \pm  \sqrt{\Delta }}{2a}" />
-
-   <img  src="https://latex.codecogs.com/svg.image?\inline&space;\LARGE&space;\bg{white}x&space;=&space;\frac{6}{2}" />
-
-   <img  src="https://latex.codecogs.com/svg.image?\inline&space;\large&space;\bg{white}x&space;=&space;3" />
+   <div align="center"><img src="https://i.imgur.com/T7b4iuY.png" title="source: imgur.com" width="30%""/></div>
 
 2. Uma receita de Brigadeiro.
 
@@ -105,10 +99,10 @@ Para que um Algoritmo consiga concluir a tarefa é importante que alguns princí
 
 Exemplo de uma receita adaptada para um Algoritmo Computacional:
 
-```portugol
+```pseudocode
 Algoritmo para fazer claras em neve
 
-início
+inicio
     Repita os quatro seguintes passos:
         Pegue um ovo.
         Quebre o ovo.
@@ -127,6 +121,8 @@ fim.
 ```
 
 Observe que neste o exemplo (fazer claras em neve), o nível de detalhamento é muito maior do que a receita de Brigadeiro, mas ainda assim, para se tornar um programa de computador o algoritmo precisa ser mais detalhado, como veremos no próximo tópico.
+
+
 
 <h3>Tipos de Algoritmo</h3>
 
@@ -202,10 +198,6 @@ Fim
 | Aspecto Positivo                                             | Aspecto Negativo                                |
 | ------------------------------------------------------------ | ----------------------------------------------- |
 | Representação clara sem as especificações de linguagem de programação. | As regras do pseudocódigo devem ser aprendidas. |
-
-No Bloco 01 do Bootcamp aprofundaremos este conteúdo.
-
-
 
 <br /><br />
 
