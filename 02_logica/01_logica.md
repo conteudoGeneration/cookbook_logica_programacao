@@ -148,7 +148,7 @@ Os algoritmos são expressos diretamente em **Linguagem Natural**, ou seja, a se
 
 É uma **Representação Gráfica** em que formas geométricas diferentes implicam em ações (instruções e comandos) distintas. O Fluxograma é mais preciso que a Descrição Narrativa, porém não se preocupa com os detalhes de implementação da Linguagem de Programação escolhida. Veja abaixo o Fluxograma do Cálculo da Média:
 
-<div align="center"><img src="https://i.imgur.com/kFns2mt.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/icXoz6J.png" title="source: imgur.com" /></div>
 
 | Aspecto Positivo                                             | Aspecto Negativo                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
