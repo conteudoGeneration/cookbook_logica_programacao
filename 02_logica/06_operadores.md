@@ -215,7 +215,7 @@ Os **Operadores Relacionais** são utilizados para comparar valores entre variá
 | **!=**   | Diferente              |
 
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="150px"/> | **ATENÇÃO:** Não confunda o Operador Relacional (==) com o Operador de Atribuição (=).<br />O Operador de Atribuição (=) tem por objetivo atribuir uma valor para uma variável.<br/>O Operador Relacional (==) tem por objetivo checar se os valores entre duas variáveis são iguais. |
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | **ATENÇÃO:** Não confunda o Operador Relacional (==) com o Operador de Atribuição (=).<br />O Operador de Atribuição (=) tem por objetivo atribuir uma valor para uma variável.<br/>O Operador Relacional (==) tem por objetivo checar se os valores entre duas variáveis são iguais. |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 
 
