@@ -97,10 +97,10 @@ Antes de executarmos o código, vamos conhecer os recursos do **Editor de códig
 
 A Barra de Ferramentas Lateral é composta pelos seguintes comandos:
 
-<table>
+<table width="100%">
 	<tr>
-		<td rowspan="7" width="10%"><img src="https://i.imgur.com/DaEZlG1.png" title="source: imgur.com" /></td>
-		<td>Executar programa</td>
+		<td rowspan="7" width="15%"><img src="https://i.imgur.com/DaEZlG1.png" title="source: imgur.com" /></td>
+		<td >Executar programa</td>
 	</tr>
 	<tr>
 		<td>Executar programa linha a linha (Debug)</td>
