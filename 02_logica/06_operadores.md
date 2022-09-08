@@ -52,13 +52,12 @@ Os Operadores Aritméticos obedecem às regras matemáticas comuns:
 
 
 
-**Exemplo - Operadores Aritméticos:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 01 - Operadores Aritméticos:**
 
 ```pseudocode
 programa
 {
-	inclua biblioteca Matematica 
-	
+
 	funcao inicio()
 	{
 		inteiro x = 4
@@ -66,11 +65,11 @@ programa
 		inteiro z = 3
 		inteiro w = -5
 		
-		escreva("Soma: " + (x + y))
-		escreva("\nSoma com numero negativo: " + (x + w))
-		escreva("\nSubtração: " + (x - y))
-		escreva("\nMultiplicação: " + (x * y))
-		escreva("\nDivisão: " + (x / y))
+		escreva("Soma (4+2): " + (x + y))
+		escreva("\nSoma com numero negativo (4 + (-5)): " + (x + w))
+		escreva("\nSubtração (4-2): " + (x - y))
+		escreva("\nMultiplicação (4*2): " + (x * y))
+		escreva("\nDivisão (4/2): " + (x / y))
 		escreva("\nMódulo (resto da divisão): " + (x % 2))
 		escreva("\nMódulo (resto da divisão): " + (z % 2))
 		escreva("\nIncrementar: " + (z ++))
@@ -79,6 +78,12 @@ programa
 }
 
 ```
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/qAuEfPC.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações matemáticas simples, utilizando os Operadores Matemáticos.
 
  <br />
 
@@ -111,7 +116,7 @@ inclua biblioteca Matematica
 
 
 
-**Exemplo - Biblioteca Matematica:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Biblioteca Matemática:**
 
 ```pseudocode
 programa
@@ -137,6 +142,14 @@ programa
 
  <br />
 
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/qP4qI3i.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações matemáticas utilizando a Biblioteca Matematica do Portugol.
+
+<br />
+
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/biblioteca_matematica.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
@@ -158,7 +171,7 @@ Os **Operadores de Atribuição** têm como função retornar um valor atribuíd
 
 
 
-**Exemplo - Operadores de Atribuição:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Operadores de Atribuição:**
 
 ```pseudocode
 programa
@@ -191,6 +204,14 @@ programa
 
 <br />
 
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/ShxkzYq.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações simples, utilizando os Operadores de Atribuição. 
+
+<br />
+
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_atribuicao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
@@ -220,7 +241,7 @@ Os **Operadores Relacionais** são utilizados para comparar valores entre variá
 
 
 
-**Exemplo - Operadores Relacionais:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Operadores Relacionais:**
 
 ```pseudocode
 programa
@@ -255,6 +276,14 @@ programa
 }
 ```
 
+ <br />
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/YZ2vU6Z.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações simples, utilizando os Operadores Relacionais. 
+
 <br />
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_relacionais.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
@@ -262,8 +291,6 @@ programa
 <br />
 
 <h2>4. Operadores lógicos</h2>
-
-
 
 Os Operadores Lógicos são utilizados para realizar comparações e validações, criando expressões condicionais complexas. 
 
@@ -283,11 +310,7 @@ Esses operadores são usados com o intuito de criar expressões do tipo **verdad
 
 Antes de aplicarmos os Operadores Lógicos no código, vamos compreender como funcionam estes operadores. Para simplificar o nosso aprendizado vamos fazer o uso de **proposições**, **que são frases e/ou sentenças que podem ser tomadas como verdadeiras ou falsas (premissas)**, para testar algumas validações e comparações, e assim desenvolver ainda mais nossa consciência para um desenvolvimento de uma linha de raciocínio que nos permite escrever códigos mais objetivos para atingir as nossas metas.
 
-
-
 <h3>4.1. Proposições simples</h3>
-
-
 
 Vamos começar com proposições simples:
 
@@ -310,11 +333,7 @@ A frase **D** é uma pergunta, logo não pode ser validada por verdadeiro ou fal
 
 As frases **E** e **F** não indicam qual é o dia e quem é a pessoa participante, respectivamente, logo não podemos validar como sendo uma sentença verdadeira ou falsa, portanto não é uma proposição.
 
-
-
 <h4>4.1.1. Negação da Proposição</h4>
-
-
 
 Quando aplicamos a negação a uma proposição, ela deixa de ser verdadeira e se torna falsa ou deixa de ser falsa e se torna verdadeira. A negação, nega toda a ideia inicial dessa proposição.
 
@@ -332,11 +351,7 @@ Essa proposição é verdadeira, caso tenha passado pelo processo seletivo da Ge
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Na maioria das Linguagens de Programação a negação é representada por: ! antes da variável.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
-
 <h3>4.2. Proposições compostas</h3>
-
-
 
 <h4>4.2.1. Conjuntiva E</h4>
 
@@ -352,8 +367,6 @@ Na proposição G temos duas sentenças que podem ser validadas como verdadeiras
 **Chove:** Podemos validar se é verdadeiro ou falso observando o tempo e o clima atual.
 **Faz frio em SP:** Podemos validar se é verdadeiro ou falso observando o tempo e o clima atual.
 
-
-
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Note que entre as duas sentenças temos um conector que é o **E (lógico)**.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
@@ -362,11 +375,7 @@ Na proposição G temos duas sentenças que podem ser validadas como verdadeiras
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Na maioria das Linguagens de Programação a conjunção é representada por: && entre as duas condições que serão testadas.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
-
 <h4>4.2.2. Disjuntiva OU</h4>
-
-
 
 Para as proposições compostas disjuntivas utilizaremos o operador **ou (lógico)**:
 
@@ -374,8 +383,6 @@ Para as proposições compostas disjuntivas utilizaremos o operador **ou (lógic
 
 **Chego tarde em casa:** Podemos avaliar se é verdadeiro ou falso, eu chego tarde em casa é uma proposição verdadeira ou falsa pra mim?
 **Pego um ônibus cheio:** Podemos avaliar se é verdadeiro ou falso, eu pego o ônibus cheio?
-
-
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Note que entre as duas sentenças temos um conector que é o **OU (lógico)**.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -394,8 +401,6 @@ Para as proposições compostas disjuntivas utilizaremos o operador **ou (lógic
 
 <h3>4.3. Tabela verdade</h3>
 
-
-
 A **Tabela Verdade** é um tipo de tabela matemática, amplamente utilizada em lógica, para determinar se uma fórmula é válida. Ela nos ajuda a entender melhor como esses operadores podem agir em um algoritmo, pois eles apresentam um padrão de resposta, que nos permite já prever quais os possíveis resultados ao utilizá-los.
 
 **Orientações:**
@@ -407,7 +412,7 @@ A **Tabela Verdade** é um tipo de tabela matemática, amplamente utilizada em l
 5. Proposição A -> Toda pessoa desenvolvedora gosta de café
 6. proposição B -> Toda pessoa desenvolvedora Java gosta de chocolate
 
-**Tabela Verdade da Negação**
+<h4>4.3.1. Tabela Verdade da Negação</h4>
 
 |  A   |  !A  |
 | :--: | :--: |
@@ -422,46 +427,9 @@ Aplicando a Tabela Verdade da Negação:
 - Se a proposição A é falsa, logo entendemos que Alguma pessoa desenvolvedora não gosta de café, pois para
   ser negativa a proposição A, basta uma única pessoa desenvolvedora não gostar do café.
 
-**Tabela Verdade da Conjunção**
+Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Negação:
 
-|  A   |  B  |  A e B  |
-| :--: | :--: | :--: |
-|  V   |  V   |  V  |
-|  V   |  F   |  F  |
-|  F   |  V   |  F  |
-|  F   |  F   |  F  |
-
-Aplicando a Tabela Verdade da Conjunção:
-
-- Se a proposição A é verdadeira e que a proposição B também seja verdadeira, o resultado da conjunção será verdadeiro. Se toda a pessoa desenvolvedora gosta de café e toda pessoa desenvolvedora Java gosta de chocolate! Não há como alguma pessoa desenvolvedora não gostar de café e nem como alguma pessoa desenvolvedora não gostar de chocolate.
-- Se a proposição A é verdadeira e a proposição B é falsa, o resultado da conjunção será falso, pois uma conjunção depende de duas verdades para ser verdadeira. 
-- Se Toda pessoa desenvolvedora gosta de café e alguma pessoa desenvolvedora Java não gosta de chocolate, assumindo que a proposição A é falsa e assumindo que a proposição B também seja falsa, o resultado da conjunção será falso, pois uma conjunção depende de duas verdades para ser verdadeira.
-- Se Alguma pessoa desenvolvedora não gosta de café e Alguma pessoa desenvolvedora Java não gosta de
-  chocolate a conjunção será falsa, pois uma conjunção depende de duas verdades para ser verdadeira.
-
-
-
-**Tabela Verdade da Disjunção**
-
-|  A   |  B  |  A e B  |
-| :--: | :--: | :--: |
-|  V   |  V   |  V  |
-|  V   |  F   |  V  |
-|  F   |  V   |  V  |
-|  F   |  F   |  F  |
-
-Aplicando a Tabela Verdade da Disjunção:
-
-- Se a proposição A é verdadeira e assumindo que a proposição B também é verdadeira, o resultado da disjuntiva será verdadeiro. Para uma condição verdadeira da disjunção precisamos que uma de suas proposições seja verdadeira, sendo as duas verdadeiras temos um resultado verdadeiro.
-
-- Se a proposição A é verdade e assumindo que a proposição B é falsa, o resultado da disjuntiva será verdadeiro. Mesmo que uma das proposições seja falsa para a disjuntiva OU temos um resultado verdadeiro. OU (A) é verdadeiro OU (B) é verdadeiro.
-- Se a proposição A é falsa e assumindo que a proposição B é falsa, o resultado da disjuntiva será falso. Por não ter nenhuma proposição que valide a operação, podemos dizer que esta se torna falsa.
-
-<br />
-
-**Exemplos - Operadores Lógicos:**
-
-1) **Negação**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Operadores Lógicos - Negação**
 
 ```pseudocode
 programa
@@ -494,13 +462,42 @@ programa
 
 ```
 
+ <br />
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/BgNL0l9.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações simples, utilizando o Operador Lógico - Negação (NAO). 
+
 <br />
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_negacao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
-2) **Conjunção**
+<h4>4.3.2. Tabela Verdade da Conjunção</h4>
+
+|  A   |  B  |  A e B  |
+| :--: | :--: | :--: |
+|  V   |  V   |  V  |
+|  V   |  F   |  F  |
+|  F   |  V   |  F  |
+|  F   |  F   |  F  |
+
+Aplicando a Tabela Verdade da Conjunção:
+
+- Se a proposição A é verdadeira e que a proposição B também seja verdadeira, o resultado da conjunção será verdadeiro. Se toda a pessoa desenvolvedora gosta de café e toda pessoa desenvolvedora Java gosta de chocolate! Não há como alguma pessoa desenvolvedora não gostar de café e nem como alguma pessoa desenvolvedora não gostar de chocolate.
+- Se a proposição A é verdadeira e a proposição B é falsa, o resultado da conjunção será falso, pois uma conjunção depende de duas verdades para ser verdadeira. 
+- Se Toda pessoa desenvolvedora gosta de café e alguma pessoa desenvolvedora Java não gosta de chocolate, assumindo que a proposição A é falsa e assumindo que a proposição B também seja falsa, o resultado da conjunção será falso, pois uma conjunção depende de duas verdades para ser verdadeira.
+- Se Alguma pessoa desenvolvedora não gosta de café e Alguma pessoa desenvolvedora Java não gosta de
+  chocolate a conjunção será falsa, pois uma conjunção depende de duas verdades para ser verdadeira.
+
+Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Conjunção:
+
+<br />
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 06 - Operadores Lógicos - Conjunção**
 
 ```pseudocode
 programa
@@ -547,13 +544,41 @@ programa
 
 ```
 
+ <br />
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/e5byt9g.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações simples, utilizando o Operador Lógico - Conjunção (E). 
+
 <br />
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_conjuncao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
-3) **Disjunção**
+<h4>4.3.3. Tabela Verdade da Disjunção</h4>
+
+|  A   |  B   | A e B |
+| :--: | :--: | :---: |
+|  V   |  V   |   V   |
+|  V   |  F   |   V   |
+|  F   |  V   |   V   |
+|  F   |  F   |   F   |
+
+Aplicando a Tabela Verdade da Disjunção:
+
+- Se a proposição A é verdadeira e assumindo que a proposição B também é verdadeira, o resultado da disjuntiva será verdadeiro. Para uma condição verdadeira da disjunção precisamos que uma de suas proposições seja verdadeira, sendo as duas verdadeiras temos um resultado verdadeiro.
+
+- Se a proposição A é verdade e assumindo que a proposição B é falsa, o resultado da disjuntiva será verdadeiro. Mesmo que uma das proposições seja falsa para a disjuntiva OU temos um resultado verdadeiro. OU (A) é verdadeiro OU (B) é verdadeiro.
+- Se a proposição A é falsa e assumindo que a proposição B é falsa, o resultado da disjuntiva será falso. Por não ter nenhuma proposição que valide a operação, podemos dizer que esta se torna falsa.
+
+Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Disjunção:
+
+<br />
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 07 - Operadores Lógicos - Disjunção**
 
 ```pseudocode
 programa
@@ -598,6 +623,14 @@ programa
 }
 
 ```
+
+ <br />
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/yDfhJap.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações simples, utilizando o Operador Lógico - Disjunção (OU). 
 
 <br />
 
