@@ -9,8 +9,9 @@
 2. <a href="02_programacao.md" >Introdução a Programação</a>
 3. <a href="03_fluxograma.md" >Introdução a Fluxograma</a>
 4. <a href="04_portugol.md" >Introdução ao Portugol</a>
-5. <a href="05_entrada_saida.md" >Entrada e Saída de dados</a>
-6. <a href="06_operadores.md" >Operadores</a>
+5. <a href="05_variaveis_constantes.md" >Variáveis e Constantes</a>
+6. <a href="06_entrada_saida.md" >Entrada e Saída de dados</a>
+7. <a href="07_operadores.md" >Operadores</a>
 <!-- 7. <a href="07.md" >Projeto Blog Pessoal - Classe Postagem Controller - Método Listar tudo</a>
 8. <a href="08.md" >Projeto Blog Pessoal - Classe Postagem Controller - Método Buscar por id</a>
 9. <a href="09.md" >Projeto Blog Pessoal - Classe Postagem Controller - Método Buscar por título</a>
