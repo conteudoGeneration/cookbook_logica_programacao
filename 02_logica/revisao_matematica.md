@@ -1,16 +1,10 @@
-
-
 <h1>Revisão de Matemática</h1>
-
-
 
 <h2>1. Potenciação</h2>
 
-
-
 A **Potenciação** (ou **Exponenciação**) é uma das operações básicas da Matemática, onde um dado Número Natural, ele é multiplicado por ele mesmo, uma quantidade *n* de vezes. Lembrando que para representar a soma de várias parcelas iguais, usamos a multiplicação, mas podemos recorrer à potenciação para  expressar o produto de vários fatores iguais.
 
-<img  src="https://latex.codecogs.com/svg.image?\LARGE&space;a^{n}&space;=&space;b"  title="https://latex.codecogs.com/svg.image?\LARGE a^{n} = b" />
+<div align="center"><img src="https://i.imgur.com/sf61WI1.png" title="source: imgur.com" width="10%"/></div>
 
 **Onde:**
 
@@ -18,15 +12,17 @@ A **Potenciação** (ou **Exponenciação**) é uma das operações básicas da 
 - n = expoente é a quantidade de vezes que o fator repete;
 - b = potência é o resultado do produto.
 
-**Exemplo:** <img  src="https://latex.codecogs.com/svg.image?\large&space;2^{4}&space;=&space;2&space;*&space;2&space;*&space;2&space;*&space;2"  title="https://latex.codecogs.com/svg.image?\large 2^{4} = 2 * 2 * 2 *  2" />
+**Exemplo:**
+
+<div align="center"><img src="https://i.imgur.com/EpmazQZ.png" title="source: imgur.com" width="25%"/></div>
 
 Uma potência ***a*** de grau *n* é o produto de *n* fatores iguais a ***a***. Em outras palavras, dizemos que a está elevado à enésima potência.
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;a^{1}"  title="https://latex.codecogs.com/svg.image?\large a^{1}" />: dizemos que a está elevado à primeira potência.
+<img src="https://i.imgur.com/nOdj5IP.png" title="source: imgur.com" width="5%"/>: dizemos que a está elevado à primeira potência.
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;a^{2}"  title="https://latex.codecogs.com/svg.image?\large a^{2}" />: dizemos que a está elevado à segunda potência. Potências com expoente igual a 2 são conhecidas como “quadrado”.
+<img src="https://i.imgur.com/J1Nr29r.png" title="source: imgur.com" width="5%"/>: dizemos que a está elevado à segunda potência. Potências com expoente igual a 2 são conhecidas como “quadrado”.
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;a^{3}"  title="https://latex.codecogs.com/svg.image?\large a^{3}" />: dizemos que a está elevado à terceira potência. Potências com expoente igual a 3 são conhecidas como “cubo”.
+<img src="https://i.imgur.com/tggJoqs.png" title="source: imgur.com" width="5%"/>: dizemos que a está elevado à terceira potência. Potências com expoente igual a 3 são conhecidas como “cubo”.
 
 
 
@@ -38,25 +34,25 @@ Uma potência ***a*** de grau *n* é o produto de *n* fatores iguais a ***a***. 
 
 ​		Todo número elevado à zero é igual a um
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;a^{0}&space;=&space;1"  title="https://latex.codecogs.com/svg.image?\large a^{0} = 1" />
+<div align="center"><img src="https://i.imgur.com/78henUw.png" title="source: imgur.com" width="10%"/></div>
 
 2. Potência com expoente 1
 
 ​		Qualquer número, elevado a 1 será igual a ele mesmo
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;a^{1}&space;=&space;a"  title="https://latex.codecogs.com/svg.image?\large a^{1} = a" />
+<div align="center"><img src="https://i.imgur.com/QB5jx4B.png" title="source: imgur.com" width="10%"/></div>
 
 3. Toda potência de base 1 é igual ao próprio 1
 
-​		Nas potências com base 1, dados por <img  src="https://latex.codecogs.com/svg.image?\large&space;1^{n}"  title="https://latex.codecogs.com/svg.image?\large 1^{n}" />, sendo ***n*** pertencente aos reais, independente do valor de "n", o resultado será sempre 1.
+​		Nas potências com base 1, dados por , sendo ***n*** pertencente aos reais, independente do valor de "n", o resultado será sempre 1.
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;1^{n}&space;=&space;1"  title="https://latex.codecogs.com/svg.image?\large 1^{n} = 1" />
+<div align="center"><img src="https://i.imgur.com/LgpDbTa.png" title="source: imgur.com" width="10%"/></div>
 
 4. Potências com base igual a 0
 
-​		Toda potência com base igual a 0 , <img  src="https://latex.codecogs.com/svg.image?\large&space;0^{n}"  title="https://latex.codecogs.com/svg.image?\large 0^{n}" />, sendo o expoente n >, será igual a zero.
+​		Toda potência com base igual a 0 , <img src="https://i.imgur.com/faxYNvx.png" title="source: imgur.com" width="4%"/>, será igual a zero.
 
-<img  src="https://latex.codecogs.com/svg.image?\large&space;0^{n}&space;=&space;0"  title="https://latex.codecogs.com/svg.image?\large 0^{n} = 0" />
+<div align="center"><img src="https://i.imgur.com/EnGmiy2.png" title="source: imgur.com" width="10%"/></div>
 
 
 
@@ -74,7 +70,7 @@ Da mesma forma, **a Radiciação é a operação oposta à** **Potenciação**. 
 
 A radiciação serve para **responder às perguntas do tipo:** “Qual é o número que multiplicado por ele mesmo 3 vezes resulta em  125?” Por tentativa, podemos descobrir que é o número 5, mas há uma  forma de representar isso em potências e raízes.
 
-<img  src="https://latex.codecogs.com/svg.image?\LARGE&space;\sqrt[n]{x}&space;=&space;y"  title="https://latex.codecogs.com/svg.image?\LARGE \sqrt[n]{x} = y"  />
+<div align="center"><img src="https://i.imgur.com/oFeXTaK.png" title="source: imgur.com" width="10%"/></div>
 
 **Onde:**
 
@@ -82,7 +78,9 @@ A radiciação serve para **responder às perguntas do tipo:** “Qual é o núm
 - x = é chamado de **radicando**, ele indica o resultado da potenciação feita, normalmente é o número que já nos foi dado;
 - y =  é o resultado, o número que estamos procurando e que foi a antiga base da potenciação realizada.
 
-**Exemplo:** <img  src="https://latex.codecogs.com/svg.image?\large&space;\sqrt{4}&space;=&space;2"  title="https://latex.codecogs.com/svg.image?\large \sqrt{4} = 2" />
+**Exemplo:** 
+
+<div align="center"><img src="https://i.imgur.com/aaGNW6g.png" title="source: imgur.com" width="10%"/></div>
 
 No exemplo acima, como não foi indicado o índice, ele será 2, ou seja, uma raiz quadrada. O resultado da operação será 2, porquê o numero multiplicado por ele mesmo 2 vezes, que resulta em 4 é o 2 (2 x 2 = 4).
 
@@ -100,9 +98,9 @@ Neste caso, **fazemos a fatoração** do número!
 
 Nesse processo, pegamos o valor e vamos **dividindo ele e seus resultados pelos menores número primos** que conseguirmos, **até que chegue a 1.** Vejamos o exemplo abaixo:
 
-### Determine a raiz quadrada de 144
+**Determine a raiz quadrada de 144:**
 
-### <img  src="https://latex.codecogs.com/svg.image?\large&space;\sqrt{144}"  title="https://latex.codecogs.com/svg.image?\large \sqrt{144}" /> 
+<div align="center"><img src="https://i.imgur.com/IPfAv2q.png" title="source: imgur.com" width="10%"/></div> 
 
 Fatorando o numero 144, teremos:
 
