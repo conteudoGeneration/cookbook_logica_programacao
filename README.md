@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="60%"/></td>
-        <td><a href="01_logica/README.md">Portugol</a></td>
+        <td><a href="02_logica/README.md">Portugol</a></td>
     </tr>
 </table>
 
