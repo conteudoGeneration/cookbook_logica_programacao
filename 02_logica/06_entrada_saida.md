@@ -12,7 +12,7 @@ A instrução Escreva é utilizada para mostrar informações na tela do computa
 
 Usa-se a instrução Escreva quando é necessário mostrar algum dado do algoritmo ou mensagem na tela do usuário. A instrução de saída de dados (Escreva) será responsável pela exibição dos dados da variável, constante ou expressão na tela do computador.
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="3%"/>**Exemplo 01 - Hello World!**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 01 - Hello World!**
 
 ```pseudocode
 programa
@@ -26,7 +26,7 @@ programa
 
 ```
 
-<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="4%"/>**Resultado do Algoritmo:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 <div align="center"><img src="https://i.imgur.com/zDFNMOP.png" title="source: imgur.com" /></div>
 
@@ -38,7 +38,7 @@ programa
 
 Além de imprimir mensagens na tela também é possível imprimir o conteúdo de variáveis. 
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="3%"/>**Exemplo 02 - Imprime Variáveis**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Exibe os dados das Variáveis na tela - Versão 01**
 
 ```pseudocode
 programa
@@ -63,7 +63,7 @@ programa
 
 ```
 
-<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="4%"/>**Resultado do Algoritmo:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 <div align="center"><img src="https://i.imgur.com/xg42eGc.png" title="source: imgur.com" /></div>
 
@@ -86,7 +86,7 @@ Além das Sequência de Escape, vamos utilizar o **Operador de Caracteres Concat
 
 O **Operador Concatenar** tem a função de **unir 2 cadeias de Caracteres**, transformando em uma só. O **Operador Concatenar é representado pelo sinal de +**. Veja no exemplo abaixo:
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="3%"/>**Exemplo 03 - Imprime Variáveis - Versão 02**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Exibe os dados das Variáveis na tela - Versão 02**
 
 ```pseudocode
 programa
@@ -110,7 +110,7 @@ programa
 }
 ```
 
-<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="4%"/>**Resultado do Algoritmo:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 <div align="center"><img src="https://i.imgur.com/fjRc3yS.png" title="source: imgur.com" /></div>
 
@@ -145,7 +145,7 @@ leia (nome_da_variavel);
 
 
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="3%"/>**Exemplo 04 - Imprime Variáveis com Entrada de dados - Versão 03**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Exibe os dados das Variáveis com Entrada de dados - Versão 03**
 
 ```pseudocode
 programa
@@ -184,7 +184,7 @@ programa
 }
 ```
 
-<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="4%"/>**Resultado do Algoritmo:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 <div align="center"><img src="https://i.imgur.com/gP4OOh0.png" title="source: imgur.com" /></div>
 
@@ -212,7 +212,7 @@ A inserção de comentários no decorrer do algoritmo facilita a leitura deste p
 // Meu Comentário
 ```
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="3%"/>**Exemplo 05 - Imprime Variáveis com Entrada de dados e Comentários - Versão 04**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Exibe os dados das Variáveis na tela com Entrada de dados e Comentários - Versão 04**
 
 ```pseudocode
 programa
@@ -298,5 +298,5 @@ Observe que todas as linhas do código possuem comentários. A Execução do pro
 
 <br /><br />
 
-<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="2%"/>Voltar</a></div>
 
