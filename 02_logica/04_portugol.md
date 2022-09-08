@@ -2,7 +2,7 @@
 
 
 
-Portugol, também conhecido como Português estruturado, é um pseudocódigo escrito em português”. Apesar de não ser uma linguagem de programação real, o Portugol ou português estruturado, nos possibilitará escrever nossos pseudocódigos obedecendo a estrutura de algoritmos. Estrutura esta a partir da qual escreveremos instruções de entrada, saída e processamento dos dados.  Tais instruções representam as ações que ocorrem em um sistema real.
+Portugol, também conhecido como Português estruturado, é um pseudocódigo escrito em português. Apesar de não ser uma linguagem de programação real, o Portugol nos possibilitará escrever nossos pseudocódigos obedecendo a estrutura de algoritmos. Estrutura esta a partir da qual escreveremos instruções de entrada, saída e processamento dos dados.  Tais instruções representam as ações que ocorrem em um sistema real.
 
 <h3>1.1. Estrutura Básica</h3>
 
