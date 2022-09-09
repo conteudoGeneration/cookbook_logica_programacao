@@ -1,4 +1,4 @@
-# Laços de Repetição
+# Laços condicionais
 
 Os laços condicionais, também chamados por estrutura de decisão, são estruturas que ajudam na tomada de decisão utilizando de premissas informadas em seu algoritmo. 
 
