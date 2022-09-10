@@ -34,7 +34,7 @@ Na tabela abaixo, temos um resumo dos tipos de dados utilizados em Portugol:
 
 <h2>2. Identificadores</h2>
 
-Diferentemente das palavras do mundo real, na programação não se pode separar as palavras que fazem parte do        identificador de uma variável com espaço. Ao invés disso, usa-se:
+Diferentemente das palavras do mundo real, na programação não se pode separar as palavras que fazem parte do identificador de uma variável com espaço. Ao invés disso, usa-se:
 
 - O underline (**snake_case**). **Exemplo:** *nome_da_variavel*
 - Uma letra maiúscula no começo de cada palavra, exceto a primeira (**camelCase**). **Exemplo:** *nomeDaVariavel*
