@@ -138,6 +138,47 @@ Exemplos:
 
 Uma aplicação clássica da operação módulo é identificar se um número é par ou ímpar. Nos primeiros exemplos acima, concluímos que 10 é um número par porquê ele é um numero inteiro divisível por 2, enquanto o 11 é um número ímpar porquê ele não é um numero inteiro divisível por 2.
 
+<h2>4. Soma e Subtração de números negativos</h2>
+
+Dentro dos conjuntos numéricos existem os números inteiros, que se caracterizam pela existência de números positivos e negativos.  Provavelmente você consegue responder rapidamente qual é o resultado de operações matemáticas simples com números positivos como: **2 + 2** ou **3 – 1**, mas e a adição e a subtração de números negativos? Será que você sabe como calcular: **(– 2) + (-2)** ou **(– 3) – (– 1)**? 
+
+Nós demonstraremos esses cálculos por meio da reta numerada do Plano Cartesiano, conhecida como eixo x. 
+
+<div align="center"><img src="https://i.imgur.com/Nt856Ix.png" title="source: imgur.com" /></div>
+
+Independentemente do cálculo, sempre partiremos do ZERO. Vejamos os casos que podem aparecer:
+
+- Se o número for **positivo,** andaremos a quantidade de casas indicadas para a **direita (→);**
+- Se o número for **negativo**, andaremos para a **esquerda (←)**;
+- Se estivermos fazendo uma subtração de números inteiros, andaremos para o lado contrário ao que falamos;
+- Se for uma adição de números inteiros, não mudará nada! 
+
+Pode até parecer complicado, mas na prática é muito simples! Vejamos alguns exemplos:
+
+**1° Exemplo: (– 3) + (– 2)**
+
+Saindo do zero, andaremos duas casas para a esquerda, parando no **– 3** (seta laranja). Em seguida, andaremos outras duas casas para a esquerda, parando no **– 5** (seta roxa). Então, **(– 3) + (– 2) = – 5.**
+
+<div align="center"><img src="https://i.imgur.com/RbdEmPg.png" title="source: imgur.com" /></div>
+
+**2° Exemplo: (– 3) – (– 2)**
+
+Saindo do zero, andaremos 3 casas para a esquerda, parando no **– 3** (seta laranja). Deveríamos andar 2 casas para a esquerda, mas como é uma **subtração,** invertemos o lado e andamos duas casas para a **direita**, parando no **– 1** (seta roxa). Logo, **(– 3) - (– 2) = – 1.**
+
+<div align="center"><img src="https://i.imgur.com/vviJqQb.png" title="source: imgur.com" /></div>
+
+**3° Exemplo: (– 1) + (+ 4)**
+
+Saindo do zero, andaremos uma casa para a esquerda, parando no **– 1** (seta laranja). Em seguida, andaremos outras quatro casas para a esquerda, parando no **+ 3** (seta roxa). Então, **(– 1) + (+ 4) = 3**.
+
+<div align="center"><img src="https://i.imgur.com/O1KAmB1.png" title="source: imgur.com" /></div>
+
+**4° Exemplo: (+ 3) – (– 2)**
+
+Saindo do zero, andaremos três casas para a direita, parando no **+3** (seta laranja). Deveríamos andar duas casas para a esquerda, mas como é uma **subtração,** invertemos o lado e andamos duas casas para a **direita**, parando no **+ 5** (seta roxa). Então, **(+ 3) – (– 2) = 5**
+
+<div align="center"><img src="https://i.imgur.com/GMRITg2.png" title="source: imgur.com" /></div>
+
 <br /><br />
 
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
