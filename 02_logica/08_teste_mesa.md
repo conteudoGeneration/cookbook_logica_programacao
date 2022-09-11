@@ -62,11 +62,11 @@ Toda a Linguagem de Programação possui uma ferramenta de execução linha a li
 
 3. Na sequência, clique no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/> (**Executar programa linha a linha** ), localizado na Barra de Ferramentas Lateral, do Editor de código.
 4. Observe que a linha 6 será selecionada. 
-5. Para executar a próxima linha será preciso clicar mais 3 vezes, porquê esta linha cria 4 variáveis (1 clique para cada variável)
+5. Para executar a próxima linha será preciso clicar mais 3 vezes, porquê esta linha cria 4 variáveis (1 clique para cada variável), como vemos na animação abaixo:
 
 <div align="center"><img src="https://i.imgur.com/Z8jZgGl.gif" title="source: imgur.com" /></div>
 
-6. Após os 4 cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, No próximo clique será exibida a mensagem solicitando a digitação de um valor para a variável n1 e no próximo clique será solicitada a digitação do valor. Este processo será repetido com a variável n2.
+6. Após os 4 cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, No próximo clique será exibida a mensagem solicitando a digitação de um valor para a variável n1 e no próximo clique será solicitada a digitação do valor. Este processo será repetido com a variável n2, como vemos na animação abaixo:
 
 <div align="center"><img src="https://i.imgur.com/m0bbTWE.gif" title="source: imgur.com" /></div>
 
@@ -75,14 +75,16 @@ Toda a Linguagem de Programação possui uma ferramenta de execução linha a li
 - Ao digitar um valor para a varável n1, o valor será exibido no Painel de Inspeção ao lado da variável n1;
 - Ao digitar um valor para a varável n2, o valor será exibido no Painel de Inspeção ao lado da variável n2;
 
-8. Após digitar valores inteiros para as variáveis n1 e n2, nos próximos cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, serão executadas as operações matemáticas: soma e subtração:
+8. Após digitar valores inteiros para as variáveis n1 e n2, nos próximos cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, serão executadas as operações soma e subtração, como vemos na animação abaixo:
 
 <div align="center"><img src="https://i.imgur.com/yqH2NHt.gif" title="source: imgur.com" /></div>
 
-8. Observe no **Painel de Inspeção** que:
+9. Observe no **Painel de Inspeção** que:
 
 - Ao executar a operação de soma, o resultado da soma será exibido no Painel de Inspeção ao lado da variável soma;
 - Ao executar a operação de subtração, o resultado da subtração será exibido no Painel de Inspeção ao lado da variável subtracao.
+
+10. Nos próximos 2 cliques, o resultado final das 2 operações serão exibidos na tela e o programa será finalizado, como podemos observar na animação acima.
 
 Através da **Execução linha a linha** é possível fazer um teste de mesa no próprio código. Este recurso é muito útil para resolver problemas em trechos de códigos que não estão funcionando corretamente ou simplesmente para entender o funcionamento de um algoritmo.
 
