@@ -142,7 +142,7 @@ inclua biblioteca Matematica
 | Matematica.menor_numero(real valor_1, real valor_2)       | Indica entre 2 números reais, qual deles é o menor.          |
 
 
-| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *No Anexo Revisão de Matemática, temos uma breve revisão sobre Potenciação, Radiciação e Módulo. Caso você tenha alguma dúvida, não deixe de ler!*</div> |
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *No Anexo <a href="revisao_matematica.md" target="_blank">Revisão de Matemática</a>, temos uma breve revisão sobre alguns conceitos e operações da Matemática. Caso você tenha alguma dúvida, não deixe de ler!*</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <br />
