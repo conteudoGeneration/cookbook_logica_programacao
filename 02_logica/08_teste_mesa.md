@@ -24,26 +24,32 @@ programa
 		soma = n1 + n2
 		subtracao = n1 - n2
 		
-		escreva("\nA soma dos dois números é: " + soma)
-		escreva("\nA diferença dos dois números é: " + subtracao)
+		escreva("\nA soma dos dois números é: ", soma)
+		escreva("\nA diferença dos dois números é: ", subtracao)
 	}
 }
 ```
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/debug/soma_subtracao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
 
 <h2>1. Método manual</h2>
 
 Em uma tabela, na primeira linha, insere o número da linha na primeira coluna e em seguida coloca-se todas as variáveis que se deseja acompanhar o valor nas colunas seguintes. 
 
-Na primeira coluna, insira as linhas onde as variáveis terão o seu valor alterado. Nas colunas seguintes, preencha com os valores que cada variável terá após a execução da linha, para simular a execução do programa. A tabela toda corresponde a uma execução do programa. Veja o exemplo na tabela abaixo:
+Na primeira coluna, insira as linhas onde as variáveis terão o seu valor alterado. Na segunda coluna, insira uma breve descrição da ação. Nas colunas seguintes, preencha com os valores que cada variável terá após a execução da linha, para simular a execução do programa. A tabela toda corresponde a uma execução do programa. Veja o exemplo na tabela abaixo:
 
-| Linha  |  n1  |  n2  | soma | subtracao |
-| :----: | :--: | :--: | :--: | :-------: |
-| **9**  |  10  |      |      |           |
-| **12** |  10  |  5   |      |           |
-| **14** |  10  |  5   |  15  |           |
-| **15** |  10  |  5   |  15  |     5     |
+| Linha  | Ação                     |  n1  |  n2  | soma | subtracao |
+| :----: | ------------------------ | :--: | :--: | :--: | :-------: |
+| **9**  | Digitar um valor para n1 |  10  |      |      |           |
+| **12** | Digitar um valor para n2 |  10  |  5   |      |           |
+| **14** | Calcular a soma          |  10  |  5   |  15  |           |
+| **15** | Calcular a subtração     |  10  |  5   |  15  |     5     |
 
-
+Observe que no Teste de Mesa o foco são nas linhas que farão alguma modificação no valor de uma variável ou algum tipo de processamento.
 
 <h2>2. Executar linha a linha (Debug)</h2>
 
@@ -52,19 +58,29 @@ Toda a Linguagem de Programação possui uma ferramenta de execução linha a li
 1. Crie um novo programa no Portugol Studio e insira o mesmo código utilizado no teste de mesa manual;
 2. Arraste as variáveis que você deseja inspecionar do **Painel Localizar** para o **Painel de Inspeção**, como mostra a animação abaixo:
 
-<div align="center"><img src="https://i.imgur.com/eg6zgrX.gif" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/Yx5H8J1.gif" title="source: imgur.com" /></div>
 
 3. Na sequência, clique no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/> (**Executar programa linha a linha** ), localizado na Barra de Ferramentas Lateral, do Editor de código.
 4. Observe que a linha 6 será selecionada. 
 5. Para executar a próxima linha será preciso clicar mais 3 vezes, porquê esta linha cria 4 variáveis (1 clique para cada variável)
-6. Acompanhe todo o processo na animação abaixo e observe o **Painel de Inspeção** em cada clique:
 
-<div align="center"><img src="https://i.imgur.com/KFFheIh.gif" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/Z8jZgGl.gif" title="source: imgur.com" /></div>
 
-Ao observar a execução do código linha a linha, você deve ter notado que:
+6. Após os 4 cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, No próximo clique será exibida a mensagem solicitando a digitação de um valor para a variável n1 e no próximo clique será solicitada a digitação do valor. Este processo será repetido com a variável n2.
+
+<div align="center"><img src="https://i.imgur.com/m0bbTWE.gif" title="source: imgur.com" /></div>
+
+7. Observe no **Painel de Inspeção** que:
 
 - Ao digitar um valor para a varável n1, o valor será exibido no Painel de Inspeção ao lado da variável n1;
 - Ao digitar um valor para a varável n2, o valor será exibido no Painel de Inspeção ao lado da variável n2;
+
+8. Após digitar valores inteiros para as variáveis n1 e n2, nos próximos cliques no ícone <img src="https://i.imgur.com/ctpBtFf.png" title="source: imgur.com" width="4%"/>, serão executadas as operações matemáticas: soma e subtração:
+
+<div align="center"><img src="https://i.imgur.com/yqH2NHt.gif" title="source: imgur.com" /></div>
+
+8. Observe no **Painel de Inspeção** que:
+
 - Ao executar a operação de soma, o resultado da soma será exibido no Painel de Inspeção ao lado da variável soma;
 - Ao executar a operação de subtração, o resultado da subtração será exibido no Painel de Inspeção ao lado da variável subtracao.
 

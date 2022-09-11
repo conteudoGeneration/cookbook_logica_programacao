@@ -10,9 +10,30 @@ A instrução Escreva é utilizada para mostrar informações na tela do computa
 
 <h3>1.2. Escrevendo instruções</h3>
 
-Usa-se a instrução Escreva quando é necessário mostrar algum dado do algoritmo ou mensagem na tela do usuário. A instrução de saída de dados (Escreva) será responsável pela exibição dos dados da variável, constante ou expressão na tela do computador.
+Usa-se a instrução Escreva quando é necessário mostrar algum dado do algoritmo ou mensagem na tela do usuário. A instrução de saída de dados (escreva) será responsável pela exibição dos dados da variável, constante ou expressão na tela do computador.
+
+**Sintaxe:**
+
+```pseudocode
+// Exibir na tela apenas um texto
+escreva("Texto")
+
+// Exibir na tela apenas uma variável ou função
+escreva(nome_da_variável)
+
+// Exibir na tela um texto e o valor de uma variável
+escreva("Texto: ", nome_da_variavel)
+```
+
+Observe que é possível além de exibir um texto na tela, também é possível exibir o valor de uma variável ao lado do texto, separando o texto da variável através de uma virgula. O texto deve sempre estar sempre entre aspas. Vejamos alguns exemplos:
 
 <img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 01 - Hello World!**
+
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
+
+<div align="center"><img src="https://i.imgur.com/mX2V4E9.png" title="source: imgur.com" /></div>
+
+**Código no Portugol:**
 
 ```pseudocode
 programa
@@ -35,8 +56,6 @@ programa
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/hello_World.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
-
-Além de imprimir mensagens na tela também é possível imprimir o conteúdo de variáveis. 
 
 <img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Exibe os dados das Variáveis na tela - Versão 01**
 
@@ -82,10 +101,6 @@ Vamos resolver este problema utilizando um recurso chamado **Sequências de Esca
 |       **\t**        | Insere um Tab na linha, ou seja, seria o equivalente a pressionar a tecla Tab do seu teclado. |
 |       **\n**        | Pula uma linha.                                              |
 
-Além das Sequência de Escape, vamos utilizar o **Operador de Caracteres Concatenar**.
-
-O **Operador Concatenar** tem a função de **unir 2 cadeias de Caracteres**, transformando em uma só. O **Operador Concatenar é representado pelo sinal de +**. Veja no exemplo abaixo:
-
 <img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Exibe os dados das Variáveis na tela - Versão 02**
 
 ```pseudocode
@@ -100,11 +115,11 @@ programa
 		caracter letra = 'a'
 		logico resposta = verdadeiro
 		
-		escreva("\nO valor armazenado na Variável numero é: " + numero)
-		escreva("\nO valor armazenado na Variável numeroReal é: " + numeroReal)
-		escreva("\nO valor armazenado na Variável frase é: " + frase)
-		escreva("\nO valor armazenado na Variável letra é: " + letra)
-		escreva("\nO valor armazenado na Variável resposta é: " + resposta)
+		escreva("\nO valor armazenado na Variável numero é: ", numero)
+		escreva("\nO valor armazenado na Variável numeroReal é: ", numeroReal)
+		escreva("\nO valor armazenado na Variável frase é: ", frase)
+		escreva("\nO valor armazenado na Variável letra é: ", letra)
+		escreva("\nO valor armazenado na Variável resposta é: ", resposta)
 
 	}
 }
@@ -114,7 +129,7 @@ programa
 
 <div align="center"><img src="https://i.imgur.com/fjRc3yS.png" title="source: imgur.com" /></div>
 
-Observe na imagem acima, que **todas as variáveis foram exibidas uma em cada linha**, graças a **Sequência de Escape \n**. Além disso, adicionamos um texto (rótulo) ao lado de cada variável para identificar na hora de exibir na tela. Este **texto foi concatenado com o valor da variável, através do Operador de Texto Concatenar (+)**.
+Observe na imagem acima, que **todas as variáveis foram exibidas uma em cada linha**, graças a **Sequência de Escape \n**. Além disso, adicionamos um texto (rótulo) ao lado de cada variável, **separando o texto da variável com uma virgula**, para identificar o conteúdo na hora de exibir na tela. 
 
 <br />
 
@@ -122,14 +137,7 @@ Observe na imagem acima, que **todas as variáveis foram exibidas uma em cada li
 
 <br />
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | **ATENÇÃO:** Não confunda o Operador Concatenar com o Operador Aritmético soma.<br />Embora ambos sejam representados pelo sinal de +, eles fazem coisas diferentes de acordo com o tipo de variável. Se for numero, ele fará a soma, se for texto, ele concatenará os caracteres. |
-| ------------------------------------------------------------ | :----------------------------------------------------------- |
-
-
-
 <h2>2. Leia </h2>
-
-
 
 A instrução Leia é utilizada quando se deseja obter informações do usuário por meio do teclado, ou seja, é um Comando de Entrada de Dados.
 
@@ -143,9 +151,43 @@ Usa-se a instrução Leia, quando é necessário que o usuário digite algum dad
 leia (nome_da_variavel);
 ```
 
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Entrada de dados - simples**
 
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Exibe os dados das Variáveis com Entrada de dados - Versão 03**
+<div align="center"><img src="https://i.imgur.com/CefnTIc.png" title="source: imgur.com" /></div>
+
+**Código no Portugol:**
+
+```pseudocode
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia frase
+
+		escreva("\nDigite uma frase: ")
+		leia(frase)
+
+		escreva("\nO valor armazenado na Variável frase é: " + frase)
+	}
+}
+```
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/IGCtvWS.png" title="source: imgur.com" /></div>
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/leia_uma_frase.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+Vamos atualizar o Exemplo 03 inserindo a entrada de dados:
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Exibe os dados das Variáveis com Entrada de dados - Versão 03**
 
 ```pseudocode
 programa
@@ -201,8 +243,6 @@ Observe na imagem acima que:
 <br />
 
 <h2>3. Comentários no código</h2>
-
-
 
 A inserção de comentários no decorrer do algoritmo facilita a leitura deste por você e por outras pessoas desenvolvedoras. Os comentários são uma excelente alternativa para auxiliar nos estudos, porque ajudam a relembrar o como você implementou o seu código.
 
