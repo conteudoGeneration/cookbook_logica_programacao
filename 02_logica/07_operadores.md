@@ -4,8 +4,6 @@
 
 Operadores são símbolos que representam atribuições, cálculos e ordem dos dados. Os Operadores são elementos funcionais,  que atuam (Processamento) sobre os operandos (Entrada de dados), e produzem um determinado resultado (Saída de dados). Por exemplo, a expressão 3 + 2 relaciona dois operandos (os números 3 e 2) por meio do operador (+) que representa a operação de adição.
 
-Assim como na matemática, os operadores possuem uma ordem de prioridades (alguns cálculos são processados antes de outros, por exemplo). 
-
 Em relação ao tipo de dados, os Operadores são classificados como:
 
 - Operadores Aritméticos;
@@ -16,11 +14,7 @@ Em relação ao tipo de dados, os Operadores são classificados como:
 
 - Operadores Lógicos.
 
-
-
 <h2>1. Operadores Aritméticos</h2>
-
-
 
 Os **Operadores Aritméticos** são um conjunto de símbolos que representam as operações básicas da matemática (Soma, Subtração e etc). Esses operadores somente poderão ser utilizados entre variáveis com os tipos de dados Numéricos Inteiros e/ou Numéricos Reais.
 
@@ -35,8 +29,6 @@ Os **Operadores Aritméticos** são um conjunto de símbolos que representam as 
 | --       | Decremento      |
 | - Numero | Numero Negativo |
 
-
-
 Os Operadores Aritméticos obedecem às regras matemáticas comuns:
 
 - As expressões de dentro de parênteses são sempre resolvidas antes das expressões fora dos parênteses;
@@ -49,8 +41,6 @@ Os Operadores Aritméticos obedecem às regras matemáticas comuns:
 |    *     | Multiplicação |     2      |
 |    +     |     Soma      |     3      |
 |    -     |   Subtração   |     3      |
-
-
 
 <img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 01 - Operadores Aritméticos:**
 
@@ -65,15 +55,15 @@ programa
 		inteiro z = 3
 		inteiro w = -5
 		
-		escreva("Soma (4+2): " + (x + y))
-		escreva("\nSoma com numero negativo (4 + (-5)): " + (x + w))
-		escreva("\nSubtração (4-2): " + (x - y))
-		escreva("\nMultiplicação (4*2): " + (x * y))
-		escreva("\nDivisão (4/2): " + (x / y))
-		escreva("\nMódulo (resto da divisão): " + (x % 2))
-		escreva("\nMódulo (resto da divisão): " + (z % 2))
-		escreva("\nIncrementar: " + (z ++))
-		escreva("\nDecrementar: " + (x --))
+		escreva("Soma (4+2): ", (x + y))
+		escreva("\nSoma com numero negativo (4 + (-5)): ", (x + w))
+		escreva("\nSubtração (4-2): ", (x - y))
+		escreva("\nMultiplicação (4*2): ", (x * y))
+		escreva("\nDivisão (4/2): ", (x / y))
+		escreva("\nMódulo (resto da divisão): ", (x % 2))
+		escreva("\nMódulo (resto da divisão): ", (z % 2))
+		escreva("\nIncrementar: ", (z ++))
+		escreva("\nDecrementar: ", (x --))
 	}
 }
 
@@ -91,7 +81,48 @@ Neste exemplo foram realizadas algumas operações matemáticas simples, utiliza
 
 <br />
 
-<h3>1.1. Biblioteca Matematica</h3>
+<h3>1.1. Operador + com cadeias</h3>
+
+O **Operador + (soma)** quando utilizado com **variáveis do tipo cadeia**, ao invés de realizar uma Operação Matemática (soma), ele realiza uma operação chamada de **Concatenação**. 
+
+**Concatenação** é um termo usado em computação para designar a  operação de unir o conteúdo de duas cadeias (Strings), transformando em uma única cadeia. 
+
+Por exemplo, considerando  as cadeias "Generation" e "Brasil" a concatenação da primeira com a segunda  gera a cadeia "GenerationBrasil" (sem espaço entre as cadeias). 
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Concatenação de cadeias (Strings):**
+
+```pseudocode
+programa
+{
+
+	funcao inicio()
+	{
+		cadeia texto01 = "Generation"
+		cadeia texto02 = "Brasil"
+		cadeia texto03 = " "
+				
+		escreva("Concatenar texto01 e texto02: ", texto01 + texto02)
+		escreva("\nConcatenar texto02 e texto01: ", texto02 + texto01)
+		escreva("\nConcatenar texto01, texto03 e texto02: ", texto01 + texto03 + texto02)
+
+	}
+}
+```
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/ytLpPsj.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações de concatenação de texto, utilizando o Operador +.
+
+ <br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/concatenar_texto.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+
+<h3>1.2. Biblioteca Matematica</h3>
 
 A Biblioteca Matematica oferece as funções Matemáticas mais comuns, que podem ser utilizadas no nosso Pseudocódigo. Para usar esta Biblioteca é necessário declarar no inicio do programa através do comando:
 
@@ -111,12 +142,12 @@ inclua biblioteca Matematica
 | Matematica.menor_numero(real valor_1, real valor_2)       | Indica entre 2 números reais, qual deles é o menor.          |
 
 
-| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *No Anexo Revisão de Matemática, temos uma breve revisão sobre Potenciação, Radiciação e Módulo. Caso você tenha alguma dúvida, não deixe de ler!*</div> |
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *No Anexo <a href="revisao_matematica.md" target="_blank">Revisão de Matemática</a>, temos uma breve revisão sobre alguns conceitos e operações da Matemática. Caso você tenha alguma dúvida, não deixe de ler!*</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
+<br />
 
-
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Biblioteca Matemática:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Biblioteca Matemática:**
 
 ```pseudocode
 programa
@@ -128,23 +159,22 @@ programa
 		real x = 4.0
 		real y = 7.75
 		
-		escreva("Radiciação: " + Matematica.raiz(x, 2.0))
-		escreva("\nPotenciação: " + Matematica.potencia(x, 3.0))
-		escreva("\nValor Absoluto: " + Matematica.valor_absoluto(x))
-		escreva("\nValor Arredondado: " + Matematica.arredondar(y, 1))
-		escreva("\nMaior valor entre 2 numeros: " + Matematica.maior_numero(x, y))
-		escreva("\nMenor valor entre 2 numeros: " + Matematica.maior_numero(x, y))
+		escreva("Radiciação: ", Matematica.raiz(x, 2.0))
+		escreva("\nPotenciação: ", Matematica.potencia(x, 3.0))
+		escreva("\nValor Absoluto: ", Matematica.valor_absoluto(x))
+		escreva("\nValor Arredondado: ", Matematica.arredondar(y, 1))
+		escreva("\nMaior valor entre 2 numeros: ", Matematica.maior_numero(x, y))
+		escreva("\nMenor valor entre 2 numeros: ", Matematica.maior_numero(x, y))
 		
 	}
 }
-
 ```
 
  <br />
 
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
-<div align="center"><img src="https://i.imgur.com/qP4qI3i.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/GyYdP3I.png" title="source: imgur.com" /></div>
 
 Neste exemplo foram realizadas algumas operações matemáticas utilizando a Biblioteca Matematica do Portugol.
 
@@ -155,8 +185,6 @@ Neste exemplo foram realizadas algumas operações matemáticas utilizando a Bib
 <br />
 
 <h2>2. Operadores de Atribuição</h2>
-
-
 
 Os **Operadores de Atribuição** têm como função retornar um valor atribuído de acordo com a operação indicada. A operação é feita entre os dois operandos, sendo atribuído o resultado ao primeiro.
 
@@ -171,7 +199,7 @@ Os **Operadores de Atribuição** têm como função retornar um valor atribuíd
 
 
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Operadores de Atribuição:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Operadores de Atribuição:**
 
 ```pseudocode
 programa
@@ -184,19 +212,19 @@ programa
 		inteiro z = 1
 
 		z = y
-		escreva("Atribuição simples (z = 2): " + z)
+		escreva("Atribuição simples (z = 2): ", z)
 
 		x += y
-		escreva("\nAtribuição com soma (4 + 2): " + x)
+		escreva("\nAtribuição com soma (4 + 2): ", x)
 
 		x -= z
-		escreva("\nAtribuição com subtração (6 - 2): " + x)
+		escreva("\nAtribuição com subtração (6 - 2): ", x)
 
 		x *= y
-		escreva("\nAtribuição com multiplicação (4 * 2): " + x)
+		escreva("\nAtribuição com multiplicação (4 * 2): ", x)
 
 		x /= y
-		escreva("\nAtribuição com divisão (8 / 2): " + x)
+		escreva("\nAtribuição com divisão (8 / 2): ", x)
 
 	}
 }
@@ -218,8 +246,6 @@ Neste exemplo foram realizadas algumas operações simples, utilizando os Operad
 
 <h2>3. Operadores Relacionais</h2>
 
-
-
 Os **Operadores Relacionais** são utilizados para comparar valores entre variáveis e expressões do mesmo tipo e criar declarações condicionais. Esses operadores são usados com o intuito de criar expressões do tipo **verdadeiro** (TRUE) ou **falso** (FALSE), fundamentais para as declarações condicionais. O **retorno da comparação é sempre um valor do tipo Lógico**.
 
 <div align="center"><img src="https://i.imgur.com/SbtJ0Y0.png" title="source: imgur.com" width="25%""/></div>
@@ -239,9 +265,9 @@ Os **Operadores Relacionais** são utilizados para comparar valores entre variá
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | **ATENÇÃO:** Não confunda o Operador Relacional (==) com o Operador de Atribuição (=).<br />O Operador de Atribuição (=) tem por objetivo atribuir uma valor para uma variável.<br/>O Operador Relacional (==) tem por objetivo checar se os valores entre duas variáveis são iguais. |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 
+<br />
 
-
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Operadores Relacionais:**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Operadores Relacionais:**
 
 ```pseudocode
 programa
@@ -256,22 +282,22 @@ programa
 		logico resposta
 
 		resposta = x > y
-		escreva("O valor de x é maior do que o valor de y? " + resposta)
+		escreva("O valor de x é maior do que o valor de y? ", resposta)
 		
 		resposta = z >= y
-		escreva("\nO valor de z é maior ou igual ao valor de y? " + resposta)
+		escreva("\nO valor de z é maior ou igual ao valor de y? ", resposta)
 
 		resposta = x < z
-		escreva("\nO valor de x é menor do que o valor de z? " + resposta)
+		escreva("\nO valor de x é menor do que o valor de z? ", resposta)
 		
 		resposta = z <= w
-		escreva("\nO valor de z é menor ou igual ao valor de w? " + resposta)
+		escreva("\nO valor de z é menor ou igual ao valor de w? ", resposta)
 
 		resposta = x == z
-		escreva("\nO valor de x é igual ao valor de z? " + resposta)
+		escreva("\nO valor de x é igual ao valor de z? ", resposta)
 		
 		resposta = z != w
-		escreva("\nO valor de z é diferente do valor de w? " + resposta)
+		escreva("\nO valor de z é diferente do valor de w? ", resposta)
 	}
 }
 ```
@@ -351,6 +377,8 @@ Essa proposição é verdadeira, caso tenha passado pelo processo seletivo da Ge
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Na maioria das Linguagens de Programação a negação é representada por: ! antes da variável.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
+<br />
+
 <h3>4.2. Proposições compostas</h3>
 
 <h4>4.2.1. Conjuntiva E</h4>
@@ -374,6 +402,8 @@ Na proposição G temos duas sentenças que podem ser validadas como verdadeiras
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** Na maioria das Linguagens de Programação a conjunção é representada por: && entre as duas condições que serão testadas.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
 
 <h4>4.2.2. Disjuntiva OU</h4>
 
@@ -429,7 +459,7 @@ Aplicando a Tabela Verdade da Negação:
 
 Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Negação:
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Operadores Lógicos - Negação**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 06 - Operadores Lógicos - Negação**
 
 ```pseudocode
 programa
@@ -444,22 +474,21 @@ programa
 		logico resposta
 
 		proposicao_01 = x > y
-		escreva("\nA proposicao_01 é: " + proposicao_01)
+		escreva("\nA proposicao_01 é: ", proposicao_01)
 		
 		proposicao_02 = x < y
-		escreva("\nA proposicao_02 é: " + proposicao_02)
+		escreva("\nA proposicao_02 é: ", proposicao_02)
 
 		escreva("\n\nNegação\n")
 
 		resposta = nao proposicao_01
-		escreva("\nA Negação da proposicao_01 é: " + resposta)
+		escreva("\nA Negação da proposicao_01 é: ", resposta)
 
 		resposta = nao proposicao_02
-		escreva("\nA Negação da proposicao_02 é: " + resposta)
+		escreva("\nA Negação da proposicao_02 é: ", resposta)
 		
 	}
 }
-
 ```
 
  <br />
@@ -497,7 +526,7 @@ Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Conjunção
 
 <br />
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 06 - Operadores Lógicos - Conjunção**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 07 - Operadores Lógicos - Conjunção**
 
 ```pseudocode
 programa
@@ -514,34 +543,33 @@ programa
 		logico resposta
 
 		proposicao_01 = x > y
-		escreva("\nA proposicao_01 é: " + proposicao_01)
+		escreva("\nA proposicao_01 é: ", proposicao_01)
 		
 		proposicao_02 = x < y
-		escreva("\nA proposicao_02 é: " + proposicao_02)
+		escreva("\nA proposicao_02 é: ", proposicao_02)
 
 		proposicao_03 = x != y
-		escreva("\nA proposicao_03 é: " + proposicao_03)
+		escreva("\nA proposicao_03 é: ", proposicao_03)
 		
 		proposicao_04 = x == y
-		escreva("\nA proposicao_04 é: " + proposicao_04)
+		escreva("\nA proposicao_04 é: ", proposicao_04)
 
 		escreva("\n\nConjunção\n")
 
 		resposta = proposicao_01 e proposicao_03
-		escreva("\nA proposicao_01 e proposicao_03 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_01 e proposicao_03 são verdadeiras? ", resposta)
 
 		resposta = proposicao_02 e proposicao_04
-		escreva("\nA proposicao_02 e proposicao_04 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_02 e proposicao_04 são verdadeiras? ", resposta)
 
 		resposta = proposicao_01 e proposicao_02
-		escreva("\nA proposicao_01 e proposicao_02 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_01 e proposicao_02 são verdadeiras? ", resposta)
 
 		resposta = proposicao_03 e proposicao_04
-		escreva("\nA proposicao_03 e proposicao_04 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_03 e proposicao_04 são verdadeiras? ", resposta)
 		
 	}
 }
-
 ```
 
  <br />
@@ -578,7 +606,7 @@ Na sequência, vamos ver um algoritmo aplicando o Operador Lógico - Disjunção
 
 <br />
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 07 - Operadores Lógicos - Disjunção**
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 08 - Operadores Lógicos - Disjunção**
 
 ```pseudocode
 programa
@@ -595,33 +623,32 @@ programa
 		logico resposta
 
 		proposicao_01 = x > y
-		escreva("\nA proposicao_01 é: " + proposicao_01)
+		escreva("\nA proposicao_01 é: ", proposicao_01)
 		
 		proposicao_02 = x < y
-		escreva("\nA proposicao_02 é: " + proposicao_02)
+		escreva("\nA proposicao_02 é: ", proposicao_02)
 
 		proposicao_03 = x != y
-		escreva("\nA proposicao_03 é: " + proposicao_03)
+		escreva("\nA proposicao_03 é: ", proposicao_03)
 		
 		proposicao_04 = x == y
-		escreva("\nA proposicao_04 é: " + proposicao_04)
+		escreva("\nA proposicao_04 é: ", proposicao_04)
 
 		escreva("\n\nDisjunção\n")
 
 		resposta = proposicao_01 ou proposicao_03
-		escreva("\nA proposicao_01 e proposicao_03 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_01 e proposicao_03 são verdadeiras? ", resposta)
 
 		resposta = proposicao_01 ou proposicao_02
-		escreva("\nA proposicao_01 e proposicao_02 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_01 e proposicao_02 são verdadeiras? ", resposta)
 
 		resposta = proposicao_03 ou proposicao_04
-		escreva("\nA proposicao_03 e proposicao_04 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_03 e proposicao_04 são verdadeiras? ", resposta)
 
 		resposta = proposicao_02 ou proposicao_04
-		escreva("\nA proposicao_02 e proposicao_04 são verdadeiras? " + resposta)
+		escreva("\nA proposicao_02 e proposicao_04 são verdadeiras? ", resposta)
 	}
 }
-
 ```
 
  <br />
