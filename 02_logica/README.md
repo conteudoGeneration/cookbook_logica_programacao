@@ -13,7 +13,7 @@
 6. <a href="06_entrada_saida.md" >Entrada e Saída de dados</a>
 7. <a href="07_operadores.md" >Operadores</a>
 8. <a href="08_teste_mesa.md" >Teste de Mesa</a>
-9. <a href="09_exe01.md">Exercício Revisão - Parte 01</a>
+9. <a href="09_exe01.md">Exercício de Revisão - Parte 01</a>
 10. <a href="10_lacos_condicionais.md" >Laços Condicionais</a>
 11. <a href="11_exe02.md" >Exercício de Revisão - Parte 02</a>
 12. <a href="12_lacos_repeticao.md" >Laços de repetição</a>
