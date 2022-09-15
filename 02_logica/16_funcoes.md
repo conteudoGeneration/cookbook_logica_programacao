@@ -265,9 +265,70 @@ Neste exemplo, serão solicitados os dados de um colaboradore e a partir dos dad
 
 <br />
 
+<h2>2. Biblioteca Matematica</h2>
+
+A Biblioteca Matematica oferece as funções Matemáticas mais comuns, que podem ser utilizadas no nosso Pseudocódigo. Para usar esta Biblioteca é necessário declarar no inicio do programa através do comando:
+
+```pseudocode
+inclua biblioteca Matematica 
+```
+
+<br />
+
+| Função                                                    | Operação                                                     |
+| --------------------------------------------------------- | ------------------------------------------------------------ |
+| Matematica.raiz(real valor, real indice)                  | Calcula a Raiz de um numero real (quadrada, cúbica, entre outras) |
+| Matematica.potencia(real valor, real expoente)            | Calcula a Potência de um numero real (ao quadrado, ao cubo, entre outras) |
+| Matematica.valor_absoluto(real valor)                     | Retorna o valor absoluto de um numero real.                  |
+| Matematica.arredondar(real valor, inteiro casas_decimais) | Arredonda o valor de um numero real. O segundo parâmetro é o numero de casas decimais. |
+| Matematica.maior_numero(real valor_1, real valor_2)       | Indica entre 2 números reais, qual deles é o maior.          |
+| Matematica.menor_numero(real valor_1, real valor_2)       | Indica entre 2 números reais, qual deles é o menor.          |
 
 
-<h2>2. Biblioteca texto</h2>
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *No Anexo <a href="revisao_matematica.md" target="_blank">Revisão de Matemática</a>, temos uma breve revisão sobre alguns conceitos e operações da Matemática. Caso você tenha alguma dúvida, não deixe de ler!*</div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Biblioteca Matemática:**
+
+```pseudocode
+programa
+{
+	inclua biblioteca Matematica 
+	
+	funcao inicio()
+	{
+		real x = 4.0
+		real y = 7.75
+		
+		escreva("Radiciação: ", Matematica.raiz(x, 2.0))
+		escreva("\nPotenciação: ", Matematica.potencia(x, 3.0))
+		escreva("\nValor Absoluto: ", Matematica.valor_absoluto(x))
+		escreva("\nValor Arredondado: ", Matematica.arredondar(y, 1))
+		escreva("\nMaior valor entre 2 numeros: ", Matematica.maior_numero(x, y))
+		escreva("\nMenor valor entre 2 numeros: ", Matematica.maior_numero(x, y))
+		
+	}
+}
+```
+
+ <br />
+
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
+
+<div align="center"><img src="https://i.imgur.com/GyYdP3I.png" title="source: imgur.com" /></div>
+
+Neste exemplo foram realizadas algumas operações matemáticas utilizando a Biblioteca Matematica do Portugol.
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/biblioteca_matematica.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+
+<h2>3. Biblioteca texto</h2>
 
 Além da Biblioteca Matemática, que oferece funções para efetuar cálculos matemáticos, existe no Portugol Studio uma Biblioteca chamada **Texto**, que oferece uma série de funções para **manipular variáveis do tipo cadeia**. Vamos conhecer as principais funções da Biblioteca texto:
 
