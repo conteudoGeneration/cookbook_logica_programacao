@@ -17,11 +17,10 @@
 10. <a href="10_lacos_condicionais.md" >Laços Condicionais</a>
 11. <a href="11_exe02.md" >Exercício de Revisão - Parte 02</a>
 12. <a href="12_lacos_repeticao.md" >Laços de repetição</a>
-13. <a href="13_exe03.md" >Exercício de Revisão - Parte 03</a>
-14. <a href="14_vetores_matrizes.md" >Vetores e Matrizes</a>
-15. <a href="15_exe04.md" >Exercício de Revisão - Parte 04</a>
-16. <a href="16_funcoes.md" >Funções</a>
-17. <a href="17_exe04.md" >Exercício de Revisão - Parte 05</a>
+13. <a href="13_vetores_matrizes.md" >Vetores e Matrizes</a>
+14. <a href="14_exe03.md" >Exercício de Revisão - Parte 03</a>
+15. <a href="15_funcoes.md" >Funções</a>
+16. <a href="16_exe04.md" >Exercício de Revisão - Parte 04</a>
 
 
 <h2><img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="22px"/>Anexos</h2>
