@@ -49,7 +49,11 @@ Na primeira coluna, insira as linhas onde as variáveis terão o seu valor alter
 | **14** | Calcular a soma          |  10  |  5   |  15  |           |
 | **15** | Calcular a subtração     |  10  |  5   |  15  |     5     |
 
-Observe que no Teste de Mesa o foco são nas linhas que farão alguma modificação no valor de uma variável ou algum tipo de processamento.
+Observe que no Teste de Mesa o foco são nas linhas que farão alguma modificação no valor de uma variável ou algum tipo de processamento. Veja na animação abaixo, o processo passo a passo:
+
+<div align="center"><img src="https://i.imgur.com/1Tmpy64.gif" title="source: imgur.com" /></div>
+
+<br />
 
 <h2>2. Executar linha a linha (Debug)</h2>
 
