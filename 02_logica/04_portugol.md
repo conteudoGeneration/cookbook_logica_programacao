@@ -148,6 +148,16 @@ Será exibida a mensagem **Olá Mundo** no **Console**, como mostra a imagem aci
 
 Para exibir a mensagem, foi utilizado o comando **escreva()**, que será detalhado no conteúdo: **Entrada e Saída de dados**.
 
+<br />
+
+<h2>5. Portugol WEB Studio</h2>
+
+Além do Portugol Studio, existe também a versão WEB da ferramenta, que pode ser acessada através do Navegador da Internet. O **Portugol WEB Studio** possui praticamente todos os recursos da versão desktop, exceto a execução passo a passo (debug).
+
+Para utilizar o **Portugol WEB Studio**, acesse o endereço: **https://portugol-webstudio.cubos.io/ide** 
+
+<div align="center"><img src="https://i.imgur.com/sXch8X1.png" title="source: imgur.com" /></div>
+
 <br /><br />
 
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
