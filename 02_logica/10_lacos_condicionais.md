@@ -211,13 +211,10 @@ R: 1.calculo de média 2.Se media for maior que 6
 
 R: Caso maior que 6 - escrever: Parabéns, você foi aprovade!
 
-
-
 **Passando para o teste de mesa para validar se nosso caminho é assertivo:**
 
+![media-teste-mesa](https://i.imgur.com/7qTRNsN.gif)
 
-
-![media-teste-mesa](https://user-images.githubusercontent.com/8031302/189245276-0e9c25ca-f75f-459a-b87b-feab3dd866c0.gif)
 
 
 Note que durante a arquitetura do algoritmo foi identificada a necessidade de criar mais um dado, a média e para isso já indicamos esse dado na fase 3 do nosso teste de mesa.
@@ -375,7 +372,7 @@ Apenas uma das duas saídas será executada e o **SENÃO** só pode ser utilizad
 
 ### Acrescentando mais opções SENÃO
 
-Pode-se incluir em um algoritmo quantos SE's encadeados forem necessários, mas nesse caso o senão será sempre uma condição que será considerada após o se anterior já ter sido descartado por ser uma condição falsa. Sendo assim vamos dar sequencia no algoritmo anterior criando mais uma condição, que é a Alune em exame. 
+Pode-se incluir em um algoritmo quandos SE's encadeados forem necessários, mas nesse caso o senão será sempre uma condição que será considerada após o se anterior ja ter sido descartado por ser uma condição falsa. Sendo assim vamos dar sequencia no algoritmo anterior criando mais uma condição, que é a Alune em exame. 
 
 **Para receber a mensagem: Alune de exame, a média atingida deve ser igual a 5.**
 
@@ -441,172 +438,5 @@ Senão for atendida a condição de media ser igual ou maior a 6, então se méd
 		<td> </td>
         <td>todas as anteriores falsa</td>
 		<td>Infelizmente devo informar que foi reprovade...</td>
-	</tr>
-</table>
-
-> DICA: Sempre que utilizamos estruturas como o SE, onde podemos ter saídas diferentes para o algoritmo conforme a opção atingida, indicamos realizar o teste visando atingir o retorno de todas as condições incluindo a opção SENAO, isso para evitar anomalias em nosso código com saídas inesperadas ou que não atende o que foi planejado.
-
-## Estrutura ESCOLHA CASO
-
-A estrutura Escolha Caso, também é um laço condicional, ou seja, uma estrutura de decisão, onde podemos através de premissas indicar qual ação deve-se ter conforme a opção escolhida.
-
-Basicamente essa estrutura usa de uma variável onde receberemos a opção escolhida pelo usuário e para cada opção teremos um tipo de saída no nosso algoritmo, essa estrutura é comum em Menus de opções, onde o usuário digita uma letra ou número para a escolha de um item de um Menu.
-
-É importante atentar-se que a cada caso teremos um comando **PARE**, para indicar que acabou as ações para essa opção. 
-
-```
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro opcao
-
-		escreva("# ## ### #### #########   Menu   ########## #### ### ## #\n")
-		
-		escreva("--Digite 1 para ver indicação de um livro--\n")
-		escreva
-("--Digite 2 para ver ler uma frase motivacional--\n")
-		escreva("--Digite 3 para receber uma indicação de música--\n")
-		leia(opcao)
-			
-		escolha(opcao)
-		{
-			caso 1:
-				escreva("Livro:\nO Lápis mágico de Malala")
-				pare
-			caso 2:
-				escreva("Frase motivacional:\nTudo o que um sonho precisa para ser realizado \né alguém que acredite que ele possa ser realizado.")
-				pare
-			caso 3:
-				escreva("Música:\nAURORA - Exist For Love.")
-				pare
-			
-		}
-		
-	}
-}
-```
-
-**Leitura do código**:
-
-Escolha(variável que recebe a opção do usuário)
-
-{ 
-
-*aqui inicia as opções que podem ser a escolhida pelo usuário e as saídas para cada opção feita*
-
-```
-escolha(opcao)
-		{
-```
-
-Caso escolhida a opção 1 então...
-
-​	Escreva o texto "Livro:\nO Lápis mágico de Malala"
-
-​	e pare
-
-```
-caso 1:
-				escreva("Livro:\nO Lápis mágico de Malala")
-				pare
-```
-
-Caso escolhida a opção 2 então...
-
-​	Escreva
-
-​	e pare
-
-```
-caso 2:
-	escreva("Frase motivacional:\nTudo o que um sonho precisa para ser realizado \né alguém que acredite que ele possa ser realizado.")
-	pare
-```
-
-Note que temos apenas 3 opções para esse menu, mas poderíamos dar mais opções de escolha para o usuário, vale lembrar que nesse exemplo acima, se o usuário digitar outro numero diferente de 1,2 ou 3 ele terá um erro como retorno.
-
-### Melhorias no Escolha Caso
-
-Para tratar esse tipo de problema podemos reescrever o código adicionando a opção **caso contrario** que vai atender sempre que o usuário digitar qualquer numero diferente de 1,2 ou 3.
-
-```
-programa
-{
-	
-
-	funcao inicio()
-	{
-		inteiro opcao
-	
-		escreva("# ## ### #### #########   Menu   ########## #### ### ## #\n")
-		
-		escreva("--Digite 1 para ver indicação de um livro--\n")
-		escreva
-
-("--Digite 2 para ver ler uma frase motivacional--\n")
-		escreva("--Digite 3 para receber uma indicação de música--\n")
-		leia(opcao)
-			
-		escolha(opcao)
-		{
-			caso 1:
-				escreva("Livro:\nO Lápis mágico de Malala")
-				pare
-			caso 2:
-				escreva("Frase motivacional:\nTudo o que um sonho precisa para ser realizado \né alguém que acredite que ele possa ser realizado.")
-				pare
-			caso 3:
-				escreva("Música:\nAURORA - Exist For Love.")
-				pare
-			caso contrario:
-				escreva("Opção inválida")
-			
-		}
-		
-	}
-
-}
-```
-
-**Leitura do código**:
-
-Caso a opção digitada seja diferente dos números aceitos nos casos anteriores então:
-
-escreva "Opção inválida"
-
-```
-caso contrario:
-				escreva("Opção inválida")
-```
-
-> Nota: para o **caso contrario** não precisamos usar o comando **PARE**
-
-<table>
-	<tr>
-		<td> Entrada/ Dados</td>
-        <td>Processamento</td>
-        <td>Saída</td>
-	</tr>
-    <tr>
-    	<td>opcao = 1</td>
-        <td>caso 1</td>
-        <td>Livro:\nO Lápis mágico de Malala</td>
-    </tr>
-    <tr>
-		<td>opcao = 2</td>
-		<td>caso 2</td>
-		<td>Frase motivacional:\nTudo o que um sonho ...</td>
-	</tr>
-    <tr>
-		<td>opcao = 3</td>
-        <td>caso 3</td>
-		<td>Música:\nAURORA - Exist For Love.</td>
-	</tr>
-    <tr>
-		<td>opcao = 8</td>
-        <td>caso contrario</td>
-		<td>Opção inválida</td>
 	</tr>
 </table>
