@@ -14,7 +14,7 @@ Nesse material vamos conhecer estas 3 estruturas.
 
 Imagina que uma determinada sequencia de execuções/ processamentos devem ser repetidos por um número x de vezes, ou ainda, até que algo lhe diga para parar. Essa é a função dessa estrutura.
 
-### 1. Para
+### 1.  Para 
 
 A estrutura **para** deve receber 3 parâmetros, sendo (1)o valor inicial (2) a condição limite (3) um contador.
 
@@ -38,9 +38,9 @@ para(inteiro x = 0; x < 4; x++) {
 
 Vale lembrar que também podemos usar a subtração para o iniciador dessa contagem utilizando o auto decremento --. Nesse caso se nosso contador inicia-se com valor 100, passando pelo -- ele se torna 99, 98 e assim até atingir a condição limite.
 
-Algoritmo para teste:
+**Exercício com o laço de repetição PARA**
 
-#### Um algoritmo deve coletar 3 números e soma-lós. Ao final deve-se escrever o valor total recebido:
+Um algoritmo deve coletar 3 nomes e exibir os mesmos na tela.
 
 **teste de mesa para o algoritmo acima**
 
@@ -51,22 +51,153 @@ Algoritmo para teste:
         <td>Saída</td>
 	</tr>
 	<tr>
-		<td>inteiro x = 3, total = 0, cont = 0</td>
-		<td> total += x, condição cont < 3</td>
-		<td>valor total = 3, valor do cont = 0</td>
+		<td>cadeia nome, x = 1</td>
+		<td> condição x <= 3 </td>
+		<td>O 1º nome é: [nome digitado]</td>
 	</tr>
     <tr>
-		<td>inteiro x = 2</td>
-		<td>total += x, condição cont < 3</td>
-		<td>valor total = 5, valor do cont = 1</td>
+		<td>cadeia nome, x = 2</td>
+		<td> condição x <= 3 </td>
+		<td>O 2º nome é: [nome digitado]</td>
 	</tr>
     <tr>
-		<td>inteiro x = 1</td>
-		<td>total += x, condição cont < 3</td>
-		<td>valor total = 6, valor do cont = 2</td>
+		<td>cadeia nome, x = 3</td>
+		<td> condição x <= 3 </td>
+		<td>O 3º nome é: [nome digitado]</td>
 	</tr>
 </table>
 
 **Sem o uso de uma estrutura de repetição:**
 
+```
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome1,nome2,nome3
+		escreva("Digite o 1º nome\n")
+		leia(nome1)
+		escreva("\nO 1º nome é: "+nome1)	
+
+		escreva("Digite o 2º nome\n")
+		leia(n2)
+		escreva("\nO 2º nome é: "+nome2)
+
+		escreva("Digite o 3º nome\n")
+		leia(n3)
+		escreva("\nO 3º nome é: "+nome3)	
+	}
+
+}
+```
+
 **Com uso da estrutura de repetição (Para)**
+
+```
+programa
+{
+	funcao inicio()
+	{
+		cadeia nome
+		para(inteiro x =1; x <4; x++)
+		{
+			escreva("Digite o "+x+"º nome\n")
+			leia(nome)
+			escreva("\nO "+x+"º nome é: "+nome)
+		}
+	}
+}
+```
+
+Os dois códigos acima estão realizando a mesma operação recebem 3 nomes e escrevem na tela os 3 nomes, até aqui tudo bem... Mas imagine se precisássemos escrever um algoritmo que recebe 27 nomes, ou 140 nomes. Você acredito que seria viável utilizar o modelo sem a estrutura de repetição ou com a estrutura de repetição?
+
+Sempre que pudermos utilizar de recursos que evite caminhos mais longos e códigos extensos precisamos avaliar e aplicar essas soluções, afinal é muito mais simples vc ler um código com 20 linhas do que um código de 580 linhas de código, além de ser muito cansativo ter o trabalho de digitar muitas linhas de código, isso exige muito mais concentração, tempo e realizar manutenções futuramente, caso o cliente desejar mudar algum requisito(regra de negócio).
+
+**Leitura do código:**
+
+```
+para(inteiro x =1; x <4; x++)
+{
+```
+
+Para a **variável X, nossa variável contadora, que inicia seu valor com 1**, **enquanto X for menor que quatro** é a condição, **somar mais 1 ao valor anterior de X** (aqui após a condição ser validada o valor de X passa a valer 2, mas note que antes ele executa todo o bloco do para, tudo que precisa ser executado/processado)
+
+Vale lembrar que o **x++** é uma variável contadora ou auto incremente, isso porque o ++ faz o valor dessa variável ser somado +1, então x++ é o mesmo que escrevermos **x = x+1**, ou **x +=1**.
+
+```
+			escreva("Digite o "+x+"º nome\n")
+			leia(nome)
+			escreva("\nO "+x+"º nome é: "+nome)
+```
+
+Acima temos o processamento que se dá dentro do bloco **PARA**, ou seja, será essas as instruções que devem ser repetidas na execução, até a nossa condição **X<4** deixar de ver verdadeira. E quando isso acontece? **X** deixará de ser menor que quatro a partir que ela passar a valer o valor 4. 
+
+Aqui dentro desse bloco, pode-se trabalhar todo e qualquer tipo de processamento, incluindo:
+
+- Cálculos;
+- Laços de decisão;
+- Laços de repetição;
+- entre outras operações...
+
+```
+}
+escreva("essa linha de comando, esta fora do laço de repetição")
+```
+
+Aqui temos a finalização dessa estrutura que assim como iniciamos com **{** vamos finalizar em **}**. Tente realizar um teste colocando um texto em um comando escreva, após esse sinal de fecha chaves **}**, note que essa instrução irá aparecer na tela apenas uma única vez.
+
+**Vale lembrar que os sinais utilizados para comparar, ou escrever essas condições estão no material:**
+
+[Material Operadores](https://github.com/rafaelq80/cookbook_logica_programacao/blob/main/02_logica/07_operadores.md)
+
+### 2. Enquanto
+
+A estrutura **ENQUANTO**, também é um laço de repetição, em geral utilizadas quando não sabemos o valor final para a condição dessa repetição. Um ponto importante é que para as exercícios que vamos propor resolver com o PARA, estes também podem ser resolvidos com o ENQUANTO, mas o contrário ou seja, para os exercícios propostos a solução com o ENQUANTO, muitas vezes não teremos como utilizar o PARA para resolver... isso devido a própria estrutura do PARA que te obriga a iniciar o valor da variável contadora já dentro da estrutura do PARA, para o ENQUANTO isso não acontece.
+
+Exercício modelo: Escreva um algoritmo que some dois valores, o algoritmo deve exibir na tela o resultado da soma, e deve ser repetido o processo de receber os valores n1 e n2 até que o usuário informe que não deseja mais realizar novos cálculos. 
+
+<table>
+	<tr>
+		<td> Entrada/ Dados</td>
+        <td>Condição</td>
+        <td>Processamento</td>
+        <td>Saída</td>
+	</tr>
+	<tr>
+		<td>inteiro N1 e N2 e Resultado, caracter continua</td>
+		<td> continua != 'n'</td>
+        <td> Escreva n1, ler o valor n1, escreva n2 ler o valor n2, resultado = n1+n2</td>
+		<td>O resultado da soma é: "+resultado</td>
+	</tr>
+</table>
+
+```
+programa
+{
+	funcao inicio()
+	{
+		caracter continua = 's'
+		inteiro n1,n2,resultado
+
+		enquanto(continua !=  'n')
+		{
+			escreva("\nDigite primeiro valor: ")
+			leia(n1)
+			escreva("\nDigite segundo valor: ")
+			leia(n2)
+	
+			resultado = n1+n2
+	
+			escreva("\nO resultado da soma é: "+resultado)
+	
+			escreva("\n++++++++++++++++MENU++++++++++++++++++\n")
+			escreva("\nDeseja somar dois valores?")
+			escreva("\nDigite S para sim OU digite N para não: ")
+			leia(continua)
+			escreva("++++++++++++++++++++++++++++++++++\n")
+		}
+		
+	}
+}
+```
+
