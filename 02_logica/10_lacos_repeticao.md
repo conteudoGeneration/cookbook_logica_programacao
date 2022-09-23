@@ -38,11 +38,11 @@ para(inteiro x = 0; x < 4; x++) {
 
 Vale lembrar que também podemos usar a subtração para o iniciador dessa contagem utilizando o auto decremento --. Nesse caso se nosso contador inicia-se com valor 100, passando pelo -- ele se torna 99, 98 e assim até atingir a condição limite.
 
-**Exercício com o laço de repetição PARA**
+**Exercício com o laço de repetição PARA**:
 
 Um algoritmo deve coletar 3 nomes e exibir os mesmos na tela.
 
-**teste de mesa para o algoritmo acima**
+**Teste de mesa para o algoritmo acima**
 
 <table>
 	<tr>
@@ -154,7 +154,9 @@ Aqui temos a finalização dessa estrutura que assim como iniciamos com **{** va
 
 A estrutura **ENQUANTO**, também é um laço de repetição, em geral utilizadas quando não sabemos o valor final para a condição dessa repetição. Um ponto importante é que para as exercícios que vamos propor resolver com o PARA, estes também podem ser resolvidos com o ENQUANTO, mas o contrário ou seja, para os exercícios propostos a solução com o ENQUANTO, muitas vezes não teremos como utilizar o PARA para resolver... isso devido a própria estrutura do PARA que te obriga a iniciar o valor da variável contadora já dentro da estrutura do PARA, para o ENQUANTO isso não acontece.
 
-Exercício modelo: Escreva um algoritmo que some dois valores, o algoritmo deve exibir na tela o resultado da soma, e deve ser repetido o processo de receber os valores n1 e n2 até que o usuário informe que não deseja mais realizar novos cálculos. 
+**Exercício com modelo ENQUANTO:**
+
+Escreva um algoritmo que some dois valores, o algoritmo deve exibir na tela o resultado da soma, e deve ser repetido o processo de receber os valores n1 e n2 até que o usuário informe que não deseja mais realizar novos cálculos. 
 
 <table>
 	<tr>
@@ -196,8 +198,20 @@ programa
 			leia(continua)
 			escreva("++++++++++++++++++++++++++++++++++\n")
 		}
-		
 	}
 }
 ```
 
+**Leitura do código:**
+
+```
+caracter continua = 's'
+```
+
+Aqui temos a nossa variável utilizada para a condição do laço sendo iniciada e declarada fora da estrutura em questão, o ENQUANTO, diferente do modelo anterior. Isso nos permite por exemplo iniciar a nossa variável com um valor positivo para a condição e até mesmo pedir para o usuário através de uma entrada de dado definir, quanto a repetição deve parar.
+
+Também é possível utilizar essa estrutura para executar por x vezes a repetição, como informado anteriormente, podemos criar um contador e fazer a mesma operação utilizada para o modelo PARA.
+
+**Exercício:**
+
+Escreva um algoritmo que recebe 3 números e multiplique-os por 3, e escreva o resultado de cada cálculo. 
