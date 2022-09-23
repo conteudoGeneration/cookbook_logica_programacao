@@ -212,6 +212,72 @@ Aqui temos a nossa variável utilizada para a condição do laço sendo iniciada
 
 Também é possível utilizar essa estrutura para executar por x vezes a repetição, como informado anteriormente, podemos criar um contador e fazer a mesma operação utilizada para o modelo PARA.
 
+Vale lembrar que essa estrutura também permite dentro de seu bloco, a execução de:
+
+- Cálculos;
+- Laços de decisão;
+- Laços de repetição;
+- entre outras operações...
+
 **Exercício:**
 
 Escreva um algoritmo que recebe 3 números e multiplique-os por 3, e escreva o resultado de cada cálculo. 
+
+```
+programa
+{
+	funcao inicio()
+	{
+		inteiro x =1 , resultado, numero
+	
+		enquanto(x<4)
+		{
+			escreva("Digite o valor do "+x+ ":\n")
+			leia(numero)
+	
+			resultado = numero *3 
+			escreva("\nO resultado do valor informado multiplicado por 3 é: "+resultado)
+			escreva("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+	
+			x++
+		}
+		escreva("\t\t_________Fim do programa_________")
+	}
+}
+```
+
+Leitura do código:
+
+```
+inteiro x =1 , resultado, numero
+```
+
+declaração das variáveis que vamos fazer uso em nossa aplicação, aqui note que iniciamos x com o valor 1, essa variável será nosso contador, se observar o modelo de exercício com a estrutura PARA, notaremos que a estrutura tem um contador X++, como não temos esse contador no corpo da condição da estrutura ENQUANTO, precisamos atender essa necessidade fora da condição, para nosso algoritmo conseguir enxergar a quantidade de repetições e parar dentro da condição indicada. É importante reforçar que o valor do contador pode ser iniciado com qualquer número inteiro, conforme a necessidade.
+
+enquanto(x<4)
+		{
+
+Para o comando acima, estamos definindo a condição que deve ser atendida para o laço de repetição ser executado. No caso teremos a condição de X ser menor que o valor 4, sendo assim a repetição acontece para o x tendo valor 1,2 ou 3.
+```
+	escreva("Digite o valor do "+x+ ":\n")
+	leia(numero)
+	
+	resultado = numero *3 
+	escreva("\nO resultado do valor informado multiplicado por 3 é: "+resultado)
+						  escreva("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+```
+As linhas acima são as ações de receber o valor de número, passado pelo usuário e realizar o cálculo desejado, para cada execução desse bloco ficar mais organizado esteticamente, optei por inserir uma linha com sinal +++, mas trata-se apenas de estética.
+
+Podemos também ver o valor de x se alterando a cada repetição da nossa estrutura, para isso basta observar o valor exibido na frase, **"Digite o valor do "+x+ ":"** -> aqui temos ao executar o código, onde esta o X, a saída do valor de X para essa repetição.
+
+```
+x++
+```
+
+Aqui, na ausência de um contador nativo dentro da condição, como acontece no PARA, estamos incluindo ainda dentro do bloco da estrutura ENQUANTO o contador **x++**
+
+```
+}
+```
+
+Por último, finalizamos o bloco de repetição, tudo que estiver após esse sinal não deve repetir.
