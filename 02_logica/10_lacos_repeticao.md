@@ -281,3 +281,69 @@ Aqui, na ausência de um contador nativo dentro da condição, como acontece no 
 ```
 
 Por último, finalizamos o bloco de repetição, tudo que estiver após esse sinal não deve repetir.
+
+### 3. Faça ... Enquanto
+
+Todos nós já tivemos uma pessoa próxima que primeiro faz e depois pergunta, correto. Essa pessoa é o FAÇA ENQUANTO, ele executa ao menos uma vez o código, isso porque ele primeiro roda o primeiro loop para depois então ele verificar a condição, isso por que ele realmente tem sua estrutura invertida em comparação aos outros laços de repetição.
+
+Para melhor visualização da diferença entre essa estrutura e a anterior, vou escrever um algoritmo com a estrutura ENQUANTO e reescrever com o FACA ENQUANTO, a ideia é realmente visualizar as diferenças entre os comportamentos.
+
+**Exercício proposto**:
+
+Escrever um algoritmo que recebe um valor e multiplica ele por 5, até o contador atingir o valor limite menor igual a 2, iniciando o nosso contador em 3.
+
+<table>
+	<tr>
+		<td> Entrada/ Dados</td>
+        <td>Condição</td>
+        <td>Processamento</td>
+        <td>Saída</td>
+	</tr>
+	<tr>
+		<td>inteiro x =3, n, resultado</td>
+		<td> X<=2 </td>
+        <td> resultado = n * 5</td>
+		<td>"O resultado da multiplicação é: "+resultado</td>
+	</tr>
+</table>
+
+```
+programa
+{
+	funcao inicio()
+	{
+		inteiro x=3, n, resultado
+		enquanto(x<=2)
+		{
+			escreva("\nDigite um número inteiro: ")
+			leia(n)
+			resultado = n*5
+			escreva("\nO resultado da multiplicação é: "+resultado)
+		}
+	}
+}
+```
+
+OBS o código escrito na estrutura ENQUANTO, ao ser executado não trará nenhum resultado exibido no console, isso porque, ele já tem a condição dele informada como falsa, já que o valor de x não é menor e nem igual a 2.
+
+Abaixo teremos o mesmo algoritmo agora atendido com a estrutura FACA...ENQUANTO
+
+```
+programa
+{
+	funcao inicio()
+	{
+		inteiro x=3, n, resultado
+		faca
+		{
+			escreva("\nDigite um número inteiro: ")
+			leia(n)
+			resultado = n*5
+			escreva("\nO resultado da multiplicação é: "+resultado)
+		}enquanto(x<=2)
+	}
+}
+```
+
+Ao executar o código acima, teremos o bloco de código dentro do FACA executado mesmo que o valor da condição já esteja entendido como falsa. Essa estrutura é válida quando precisamos informar a saída na tela pelo menos uma vez, um exemplo prático do mundo real, seria escrever um script onde em um formulário o campo telefone deve ser exibido ao menos uma vez, mas ainda assim podemos repetir mais campos de telefone caso o usuário queira registrar mais de um número de telefone.
+
