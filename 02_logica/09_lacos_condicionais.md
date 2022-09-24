@@ -103,6 +103,10 @@ se (y)
 
 > *obs2: cada estrutura se esta desconectada, ou seja, não há relação entre elas e por isso são avaliadas e executadas isoladamente*
 
+**Vale lembrar que os sinais utilizados para comparar, ou escrever essas condições estão no material:**
+
+[Material Operadores](https://github.com/rafaelq80/cookbook_logica_programacao/blob/main/02_logica/07_operadores.md)
+
 ### Exemplos com a estrutura SE utilizando operadores relacionais 
 
 ```
