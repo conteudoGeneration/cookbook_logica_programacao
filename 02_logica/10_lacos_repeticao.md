@@ -286,7 +286,7 @@ Por último, finalizamos o bloco de repetição, tudo que estiver após esse sin
 
 Todos nós já tivemos uma pessoa próxima que primeiro faz e depois pergunta, correto. Essa pessoa é o FAÇA ENQUANTO, ele executa ao menos uma vez o código, isso porque ele primeiro roda o primeiro loop para depois então ele verificar a condição, isso por que ele realmente tem sua estrutura invertida em comparação aos outros laços de repetição.
 
-Para melhor visualização da diferença entre essa estrutura e a anterior, vou escrever um algoritmo com a estrutura ENQUANTO e reescrever com o FACA ENQUANTO, a ideia é realmente visualizar as diferenças entre os comportamentos.
+> Para melhor visualização da diferença entre essa estrutura e a anterior, vou escrever um algoritmo com a estrutura ENQUANTO e reescrever com o FACA ENQUANTO, a ideia é realmente visualizar as diferenças entre os comportamentos.
 
 **Exercício proposto**:
 
@@ -324,7 +324,7 @@ programa
 }
 ```
 
-OBS o código escrito na estrutura ENQUANTO, ao ser executado não trará nenhum resultado exibido no console, isso porque, ele já tem a condição dele informada como falsa, já que o valor de x não é menor e nem igual a 2.
+> OBS o código escrito na estrutura ENQUANTO, ao ser executado não trará nenhum resultado exibido no console, isso porque, ele já tem a condição dele informada como falsa, já que o valor de x não é menor e nem igual a 2.
 
 Abaixo teremos o mesmo algoritmo agora atendido com a estrutura FACA...ENQUANTO
 
@@ -347,3 +347,28 @@ programa
 
 Ao executar o código acima, teremos o bloco de código dentro do FACA executado mesmo que o valor da condição já esteja entendido como falsa. Essa estrutura é válida quando precisamos informar a saída na tela pelo menos uma vez, um exemplo prático do mundo real, seria escrever um script onde em um formulário o campo telefone deve ser exibido ao menos uma vez, mas ainda assim podemos repetir mais campos de telefone caso o usuário queira registrar mais de um número de telefone.
 
+**Leitura do código**:
+
+```
+faca
+		{
+```
+
+Inicio da estrutura FACA, a partir do sinal de abre chaves { estamos iniciando o bloco de comandos que devem ser executados enquanto a condição for verdadeira, lembrando que esse bloco será executado ao menos uma vez.
+
+```
+			escreva("\nDigite um número inteiro: ")
+			leia(n)
+			resultado = n*5
+			escreva("\nO resultado da multiplicação é: "+resultado)
+```
+
+O bloco de instruções que se encontra dentro da função FACA e portanto será executado em repetição até a condição deixar de ser verdadeira ou ao menos 1 vez.
+
+```
+}enquanto(x<=2)
+```
+
+A linha acima indica o final do bloco da nossa estrutura de repetição e a condição que deve ser atendida.
+
+> Atenção dev, é importante realizar a prática dos exercícios aqui apresentados, isso vai tornar seu aprendizado ainda mais assertivo
