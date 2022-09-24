@@ -12,8 +12,15 @@ Quais tipos de validações/ testes lógicos, podemos realizar com esse tipo est
 
 3. Estrutura Caso
 
-   
+   **Vale lembrar que essas estruturas também permitem dentro de seus blocos, a execução de:**
 
+   - Cálculos;
+   - Laços de decisão;
+   - Laços de repetição;
+   - entre outras operações...
+   
+   
+   
    ## Estrutura SE
 
 

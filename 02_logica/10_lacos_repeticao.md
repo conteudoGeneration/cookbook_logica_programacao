@@ -371,4 +371,11 @@ O bloco de instruções que se encontra dentro da função FACA e portanto será
 
 A linha acima indica o final do bloco da nossa estrutura de repetição e a condição que deve ser atendida.
 
-> Atenção dev, é importante realizar a prática dos exercícios aqui apresentados, isso vai tornar seu aprendizado ainda mais assertivo
+> *Atenção dev, é importante realizar a prática dos exercícios aqui apresentados, isso vai tornar seu aprendizado ainda mais assertivo*
+
+Vale lembrar que essa estrutura também permite dentro de seu bloco, a execução de:
+
+- Cálculos;
+- Laços de decisão;
+- Laços de repetição;
+- entre outras operações...
