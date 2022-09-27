@@ -379,3 +379,5 @@ Vale lembrar que essa estrutura também permite dentro de seu bloco, a execuçã
 - Laços de decisão;
 - Laços de repetição;
 - entre outras operações...
+**Resultado esperado**:
+![facaenquanto](https://user-images.githubusercontent.com/8031302/192409487-ddfc6101-58cb-4ab4-bbb1-2475b9eb5f3b.JPG)
