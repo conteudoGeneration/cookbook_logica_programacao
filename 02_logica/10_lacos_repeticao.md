@@ -113,6 +113,10 @@ Os dois códigos acima estão realizando a mesma operação recebem 3 nomes e es
 
 Sempre que pudermos utilizar de recursos que evite caminhos mais longos e códigos extensos precisamos avaliar e aplicar essas soluções, afinal é muito mais simples vc ler um código com 20 linhas do que um código de 580 linhas de código, além de ser muito cansativo ter o trabalho de digitar muitas linhas de código, isso exige muito mais concentração, tempo e realizar manutenções futuramente, caso o cliente desejar mudar algum requisito(regra de negócio).
 
+**Resultado esperado:**
+
+![para](https://user-images.githubusercontent.com/8031302/192410533-84836ecc-9c63-4eee-89e1-e57bcbfd7a5d.JPG)
+
 **Leitura do código:**
 
 ```
@@ -246,7 +250,11 @@ programa
 }
 ```
 
-Leitura do código:
+**Resultado esperado:**
+
+![enquanto](https://user-images.githubusercontent.com/8031302/192410236-7c7a56a9-b7f0-4778-9d7f-f26c93063ba7.JPG)
+
+**Leitura do código:**
 
 ```
 inteiro x =1 , resultado, numero
