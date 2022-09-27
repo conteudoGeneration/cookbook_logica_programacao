@@ -344,6 +344,8 @@ programa
 	}
 }
 ```
+  **Resultado esperado**:
+  ![facaenquanto](https://user-images.githubusercontent.com/8031302/192409487-ddfc6101-58cb-4ab4-bbb1-2475b9eb5f3b.JPG)
 
 Ao executar o código acima, teremos o bloco de código dentro do FACA executado mesmo que o valor da condição já esteja entendido como falsa. Essa estrutura é válida quando precisamos informar a saída na tela pelo menos uma vez, um exemplo prático do mundo real, seria escrever um script onde em um formulário o campo telefone deve ser exibido ao menos uma vez, mas ainda assim podemos repetir mais campos de telefone caso o usuário queira registrar mais de um número de telefone.
 
@@ -376,8 +378,13 @@ A linha acima indica o final do bloco da nossa estrutura de repetição e a cond
 Vale lembrar que essa estrutura também permite dentro de seu bloco, a execução de:
 
 - Cálculos;
+
 - Laços de decisão;
+
 - Laços de repetição;
+
 - entre outras operações...
-**Resultado esperado**:
-![facaenquanto](https://user-images.githubusercontent.com/8031302/192409487-ddfc6101-58cb-4ab4-bbb1-2475b9eb5f3b.JPG)
+
+  
+
+
