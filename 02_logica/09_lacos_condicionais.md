@@ -30,6 +30,10 @@ Como exemplo prático vamos escrever um algoritmo que valida se o valor da vari�
 
 A condição do Se esta informada dentro do conjunto de parênteses ( *condição* ), tudo que esta informado  dentro do parênteses precisa ser verdadeiro para que o bloco do **SE** seja processado, caso não seja verdadeira a condição do SE, esse bloco será ignorado/ pulado no momento da execução do código.
 
+Diagrama:
+
+
+
 ```
 programa
 {
@@ -51,6 +55,13 @@ programa
 	}
 }
 ```
+**Diagrama**
+
+![diagrama 1](https://user-images.githubusercontent.com/8031302/192664162-9bbc0dcd-b48f-4eba-8a3d-09f16bdbf982.JPG)
+
+
+
+
 **Leitura do código acima:**
 Se (o valor de x é verdadeiro){
 executar o bloco de comandos a seguir iniciado pela { e finalizado em }
@@ -123,7 +134,7 @@ programa
 	
 		se(n1 < n2)
 		{
-			escreva("O número 1 é maior que o número 2\n")
+			escreva("O número 1 é menor que o número 2\n")
 		}
 	
 		//Escrita do Se em uma unica linha quando se tem apenas uma operação se a condição for verdadeira
@@ -132,6 +143,11 @@ programa
 	}
 }
 ```
+
+**Diagrama**
+
+![diagrama 2](https://user-images.githubusercontent.com/8031302/192664164-ea6c1d2c-55ca-4642-95f1-00fc383e477c.JPG)
+
 
 **Leitura do código acima**:  
 
@@ -270,18 +286,24 @@ Agora vamos inverter a saída do nosso algoritmo utilizando o operador **nao**
 			
 			se(nao x)
 			{
-				escreva ("X é verdadeiro")
+				escreva ("o valor de x não é verdadeiro")
 			}
 			
 			se(nao y)
 			{
-				escreva ("O valor de Y é verdadeiro")
+				escreva ("o valor de y não é verdadeiro")
 			}
 		}
 	}
 No exemplo acima, ao adicionarmos o operador não antes da variável, estaremos diante de uma condição verdadeira apenas se o x for falso, o mesmo acontece para o Y. 
 
 Sendo assim, o segundo Se estaremos testando se o Y não é verdadeiro.
+
+**Diagrama**
+
+![diagrama 3](https://user-images.githubusercontent.com/8031302/192664165-522ba347-352d-41f9-969d-71ed448d2459.JPG)
+
+
 
 **Leitura do código:**
 
@@ -303,9 +325,10 @@ Se (y **não** é verdadeiro), então execute o bloco definido entre o { e o }
     <tr>
     	<td>y = falso</td>
         <td>se y NÃO é verdadeiro</td>
-        <td>O valor de Y não é verdadeiro</td>
+        <td>o valor de x não é verdadeiro</td>
     </tr>
 </table>
+
 
 
 **Resultado**:
