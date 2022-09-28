@@ -369,6 +369,10 @@ programa
 
  No exemplo acima, a condição **se a média for maior ou igual a 6**, resultará na saída: Parabéns, você foi aprovade! Mas **caso essa condição não seja atendida** quem vai executar será o bloco onde temos o **SENÃO**, que tem a saída: Infelizmente devo informar que foi reprovado...
 
+**Diagrama**
+
+![diagrama 4](https://user-images.githubusercontent.com/8031302/192665076-1297b79c-c315-4687-888d-bf351156d830.png)
+
 Apenas uma das duas saídas será executada e o **SENÃO** só pode ser utilizado em um código onde previamente foi declarada a condição de um **SE**. Se a condição **media>=6 for verdadeira**, a **condição SENÃO não será executada**.
 
 > Para comprovar o que foi passado aqui, faça dois testes no algoritmo acima:
