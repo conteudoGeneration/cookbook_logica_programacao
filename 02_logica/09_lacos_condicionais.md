@@ -644,8 +644,9 @@ caso contrario:
 		<td>Opção inválida</td>
 	</tr>
 </table>
+**Resultado**: 
 
-
+![portugol - escolha caso - 3resultado](https://user-images.githubusercontent.com/8031302/192667201-fe0eeff0-5d90-4b00-add2-58e6d4967478.JPG)
 
 <br /><br />
 
