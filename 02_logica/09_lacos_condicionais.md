@@ -28,7 +28,7 @@ Vale lembrar que essas estruturas também permitem inserir, dentro dos seus bloc
 
 <h3>1.1. O Laço Condicional SE</h3>
 
-Utilizado em situações em que se faz necessário **testar uma única condição e/ou variável**, que caso seja verdadeira, irá desencadear a execução de um ou mais processamentos ou saídas de dados. 
+O Laço Condicional **SE** é utilizado em situações em que se faz necessário **testar uma única condição e/ou variável**, que caso seja verdadeira, irá desencadear a execução de um ou mais processamentos ou saídas de dados. 
 
 **Sintaxe:**
 
@@ -42,6 +42,8 @@ se (condição)
 Neste Laço Condicional temos basicamente um teste (condição) e um grupo de ações que só acontecerão se a resposta for verdadeira. Na imagem abaixo, temos o Fluxograma básico do Laço Condicional SE:
 
 <div align="center"><img src="https://i.imgur.com/6RcELpu.png" title="source: imgur.com" width="80%"/></div>
+
+Observe que o comando A será executado somente se a condição for verdadeira (Sim) e na sequência os comandos B e C também serão executados. Caso a condição seja falsa (Não), o fluxo do programa continua normalmente executando apenas os comandos B e C.
 
 Como exemplo prático vamos escrever um algoritmo que **valida se o valor da variável lógica X é verdadeiro**.
 
@@ -80,11 +82,15 @@ No código acima, a primeira condição: **Se o valor de x for verdadeiro** ser�
 
 Na sequência, a segunda condição: **Se o valor de y for verdadeiro** será testada. Caso esta condição seja **verdadeira**, **o bloco de comandos que está dentro das chaves { }** será executado.
 
+> Na programação, as 2 chaves { } são chamadas de **escopo**. 
+
 Observe que cada bloco de código da estrutura se, **tem o seu inicio e fim delimitados por 2 chaves { }**, como mostra a imagem abaixo:
 
 ![portugol - se - 1](https://user-images.githubusercontent.com/8031302/189245637-3338d190-c7c6-45cf-943f-9d2db8244ce5.png)
 
-**Avaliando a estrutura SE a partir de um teste:**
+<br />
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
@@ -103,6 +109,7 @@ Observe que cada bloco de código da estrutura se, **tem o seu inicio e fim deli
         <td>-- NÃO TEREMOS NENHUMA SAÍDA --</td>
     </tr>
 </table>
+<br />
 
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
@@ -126,9 +133,9 @@ Se você fez o Desafio acima, deve ter observado que cada estrutura SE do códig
 
 <br />
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Laço Condicional Condicional SE e o Operador nao**
+Vamos reescrever o exemplo 01, utilizando o Operador Lógico **NAO**, que irá negar o valor das variáveis, ou seja, Verdadeiro passará a ser Falso e vice-versa:
 
-Vamos reescrever o exemplo 01, só que desta vez vamos inverter a saída do nosso algoritmo utilizando o operador **nao**.
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Laço Condicional Condicional SE - Versão 02**
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
@@ -162,7 +169,7 @@ No código acima, a primeira condição: **Se o valor de x não for verdadeiro**
 
 Na sequência, a segunda condição: **Se o valor de y não for verdadeiro** será testada. Caso esta condição seja **verdadeira, ou seja, x for verdadeiro o bloco de comandos que está dentro das chaves { }** será executado.
 
-**Avaliando a estrutura SE a partir de um teste:**
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
@@ -181,12 +188,13 @@ Na sequência, a segunda condição: **Se o valor de y não for verdadeiro** ser
         <td>o valor de x não é verdadeiro</td>
     </tr>
 </table>
+<br />
 
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 ![Portugol - se - 2 - resultado](https://user-images.githubusercontent.com/8031302/189249294-d7557c6f-bbe9-418e-8607-4df86a3ed2a1.JPG)
 
-Note que o operador **nao**, inverteu o resultado do exemplo1. Nesta segunda versão foi o primeiro SE que **não exibiu o seu texto no console**, porque a **primeira condição SE não é verdadeira**. Observe que a variável **x** foi inicializada com o valor **verdadeiro**, entretanto o operador **nao** transforma o **verdadeiro em falso e vice-versa**. 
+Note que o operador **nao**, inverteu o resultado do **Exemplo 01**. Nesta segunda versão foi o primeiro **SE** que **não exibiu o seu texto no console**, porque a **primeira condição SE não é verdadeira**. Observe que a variável **x** foi inicializada com o valor **verdadeiro**, entretanto o operador **NAO** transformou o valor **Verdadeiro em Falso**.  O mesmo aconteceu com **y** (o valor Falso se transformou em Verdadeiro).
 
  <br />
 
@@ -197,14 +205,16 @@ Note que o operador **nao**, inverteu o resultado do exemplo1. Nesta segunda ver
 | <img src="https://i.imgur.com/L338M2G.png" title="source: imgur.com" width="100px"/> | **DESAFIO:** *Altere o valor da variável x para falso, execute o programa novamente e veja como o programa se comporta.* |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 
-Se você fez o Desafio acima, deve ter observado que cada estrutura SE do código acima, assim como no exemplo 01, é independente, ou seja, não há relação entre elas e por isso são avaliadas e executadas isoladamente.
+Se você fez o Desafio acima, deve ter observado que cada estrutura SE do código acima, assim como no **Exemplo 01**, é independente, ou seja, não há relação entre elas e por isso são avaliadas e executadas isoladamente.
 
 | <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *Os Operadores utilizados para comparar e/ou escrever as condições da Estrutura SE estão disponíveis no conteúdo: <a href="07_operadores.md" target="_blank">Operadores</a>. Caso você tenha alguma dúvida, não deixe de rever este conteúdo!*</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <br />
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Laço Condicional SE e os Operadores relacionais** 
+Vamos a mais um exemplo do Laço Condicional **SE**, desta vez utilizando os Operadores Relacionais:
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Laço Condicional SE e os Operadores Relacionais** 
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
@@ -236,20 +246,41 @@ programa
 }
 ```
 
-No código acima, no primeiro Laço Condicional SE, se o valor da variável **n1 for menor que 5**, será exibido o texto do comando **escreva()** no console. No segundo Laço Condicional SE, se o valor da variável **n1 for menor que o valor da variável n2**, será exibido o texto do comando **escreva()** no console. No terceiro Laço Condicional SE, se o valor da variável **n1 for igual ao valor da variável n3**, será exibido o texto do comando **escreva()** no console. 
+No código acima, no primeiro Laço Condicional **SE**, se o valor da variável **n1 for menor que 5**, será exibido o texto do comando **escreva()** no console. No segundo Laço Condicional SE, se o valor da variável **n1 for menor que o valor da variável n2**, será exibido o texto do comando **escreva()** no console. No terceiro Laço Condicional SE, se o valor da variável **n1 for igual ao valor da variável n3**, será exibido o texto do comando **escreva()** no console. 
 
-Observe neste exemplo, que o Laço Condicional SE foi escrito **sem o uso das chaves para delimitar o bloco de código**. Neste caso, o algoritmo entende que *caso a condição seja verdadeira, apenas a primeira linha após o Laço Condicional deve ser executada* e apenas essa linha é condicionada ao SE.
+Observe neste exemplo, que o Laço Condicional **SE** foi escrito **sem o uso das chaves (escopo) para delimitar o bloco de código**. Neste caso, o algoritmo entende que *caso a condição seja verdadeira, apenas a primeira linha após o Laço Condicional deve ser executada* e apenas essa linha é condicionada ao SE.
+
+**Sintaxe:**
+
+```pseudocode
+// Laço Condicional Se com apenas uma ação - sem o escopo { }
+
+se (condição)
+	//faça apenas uma ação se a condição for verdadeira
+
+// Laço Condicional Se com mais de uma ação - com o escopo { }
+
+se (condição)
+{
+	//faça a primeira ação se a condição for verdadeira
+	//faça a segunda ação se a condição for verdadeira
+}
+```
+
+<br />
 
 | <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *Os Operadores utilizados para comparar e/ou escrever as condições da Estrutura SE estão disponíveis no conteúdo: <a href="07_operadores.md" target="_blank">Operadores</a>. Caso você tenha alguma dúvida, não deixe de rever este conteúdo!*</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-**Testando o algoritmo acima**:
+<br />
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
-		<td>Entrada</td>
-        <td>Processamento</td>
-        <td>Saída</td>
+		<td><b>Entrada</b></td>
+        <td><b>Processamento</b></td>
+        <td><b>Saída</b></td>
 	</tr>
 	<tr>
 		<td>n1 = 4</td>
@@ -267,6 +298,7 @@ Observe neste exemplo, que o Laço Condicional SE foi escrito **sem o uso das ch
         <td>Os valores de Número1 e Número3 são iguais</td>
     </tr>
 </table>
+<br />
 
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
@@ -285,11 +317,9 @@ Observe que apenas as saídas do primeiro e do terceiro Laço Condicional SE for
 
 Se você fez o Desafio acima, deve ter observado que cada estrutura SE do código acima é independente, ou seja, não há relação entre elas e por isso são avaliadas e executadas isoladamente.
 
+<br />
 
-
-<h3>Exercício Resolvido</h3>
-
-
+<h3><img src="https://i.imgur.com/n3pe9ab.png" title="source: imgur.com" />Exercício Resolvido</h3>
 
 Crie um algoritmo que receba duas notas digitadas pelo usuário e calcula a média entre esses valores. **Se o valor da média for maior ou igual a 6**, o usuário receberá a seguinte mensagem no console: **Parabéns, você foi aprovade!**
 
@@ -303,11 +333,15 @@ Ao resolver um algoritmo é necessário analisar o que se pede antes de começar
 
 <div align="center"><img src="https://i.imgur.com/YNUpmlg.png" title="source: imgur.com" width="70%"/></div>
 
+<br />
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
+
 | Quais são as entradas?                            | Qual é o processamento?                                      | Qual será a saída?                                           |
 | ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Nota1 e Nota2<br />(ambas digitadas pelo usuário) | 1.Cálculo de média <br />2.Checar Se a media é maior ou igual do que 6 | 1.Resultado do cálculo de média <br />2.Caso a média seja maior ou igual a 6 - escrever: Parabéns, você foi aprovade! |
 
-Na sequência, vamos criar o teste de mesa para validar se a Lógica está correta. Veja a animação abaixo:
+Veja o teste de mesa em ação na animação abaixo:
 
 <div align="center"><img src="https://i.imgur.com/X4KOxnM.gif" title="source: imgur.com" /></div>
 
@@ -343,9 +377,9 @@ programa
 
 <br />
 
-<h3> 1.2. Laço Condicional SE, SE Encadeado e SENAO</h3>
+<h3> 1.2. Laço Condicional SE e SENAO</h3>
 
-A estrutura **SE** também permite a execução de um ou mais processamentos ou saídas de dados para o caso falso, através da instrução **SENAO**. A instrução SENAO, em conjunto com a estrutura SE, permite criar uma resposta caso a condição verdadeira não seja satisfeita, ou seja, uma ação para a condição falsa. 
+A estrutura **SE** também permite a execução de um ou mais processamentos ou saídas de dados para o caso falso (Não), através da instrução **SENAO**. A instrução **SENAO**, em conjunto com a estrutura **SE**, permite criar uma resposta caso a condição verdadeira não seja satisfeita, ou seja, uma ação para a condição falsa. 
 
 **Sintaxe:**
 
@@ -360,15 +394,15 @@ senao
 }
 ```
 
-Este Laço Condicional é utilizado em situações em que se faz necessário testar uma única condição/variável que, se verdadeira, irá desencadear a  realização de um ou mais comandos e que, se for falsa, irá desencadear um outro grupo de ações. Temos então um teste e dois grupos de ações  possíveis; um que acontecerá se a condição for verdadeira, e outro que  acontecerá se a condição for falsa.
+Este Laço Condicional é utilizado em situações em que se faz necessário testar uma única condição/variável, que caso seja verdadeira, irá desencadear a  realização de um ou mais comandos e caso seja falsa, irá desencadear um outro grupo de ações. Temos então um teste e dois grupos de ações  possíveis: um que acontecerá se a condição for verdadeira, e outro que  acontecerá se a condição for falsa. Veja o Fluxograma básico desta estrutura:
 
 <div align="center"><img src="https://i.imgur.com/mKnE9eA.png" title="source: imgur.com" width="80%"/></div>
 
-<br />
+Observe que o comando A será executado somente se a condição for verdadeira (Sim) e na sequência o comando C também será executado. O comando B será executado somente se a condição for falsa (Não) e na sequência o comando C também será executado.
 
-Vamos adicionar uma nova condição no **Exercício Resolvido**:
+Como exemplo prático vamos adicionar uma nova condição no **Exercício Resolvido**:
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Laço Condicional SE, SE Encadeado e SENAO** 
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Laço Condicional SE e SENAO** 
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
@@ -404,15 +438,16 @@ programa
 }
 ```
 
-No exemplo acima, a condição **se a média for maior ou igual a 6**, resultará na saída: **Parabéns, você foi aprovade!** **Caso essa condição não seja atendida**, o bloco onde temos o **SENÃO** será executado e resultará na saída: **Infelizmente devo informar que foi reprovado...**
+No exemplo acima, a condição **se a média for maior ou igual a 6**, resultará na saída: **Parabéns, você foi aprovade!** **Caso essa condição não seja atendida**, o bloco onde temos o **SENÃO** será executado e resultará na saída: **Infelizmente devo informar que foi reprovade...**
 
 Observe que apenas uma das duas saídas será executada e o **SENÃO** só pode ser utilizado em um código onde previamente foi declarada a condição de um **SE**. Se a condição **media>=6 for verdadeira**, a **condição SENÃO não será executada**.
 
 Para comprovar o que foi passado aqui, faça dois testes no algoritmo acima:
 
-​	*I. Execute o algoritmo digitando notas onde o resultado da média seja menor do que 6;*
+**I.** *Execute o algoritmo digitando notas onde o resultado da média seja menor do que 6;*
+**II.** *Execute novamente o algoritmo digitando notas onde o resultado da média seja maior ou igual a 6.*
 
-​	*II. Execute novamente o algoritmo digitando notas onde o resultado da média seja maior ou igual a 6.*
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
@@ -452,15 +487,15 @@ Para comprovar o que foi passado aqui, faça dois testes no algoritmo acima:
 
 <br />
 
-<h4>1.2.1 Acrescentando mais opções (SENÃO encadeado)</h4>
+<h3>1.2.1. Acrescentando mais opções - SE encadeado</h3>
 
-Pode-se incluir em um algoritmo quantos "SE's" encadeados forem necessários, mas nesse caso o SENÃO será sempre uma condição que será considerada após as condições anteriores já terem sido descartadas por serem condições falsas. Sendo assim vamos dar sequencia no algoritmo anterior acrescentando mais uma condição: **Alune em exame!**. 
+Pode-se incluir em um algoritmo quantos "SE's" forem necessários, mas nesse caso o SENÃO será sempre uma condição que será considerada após todas as condições anteriores já terem sido descartadas por serem condições falsas. Sendo assim vamos dar sequencia no exemplo anterior acrescentando mais uma condição: **Alune em exame!**. 
 
 **Condição:** *Para receber a mensagem: Alune de exame, a média deve ser igual a 5.*
 
 <br />
 
-<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Laço Condicional SE, SE Encadeado e SENAO SE - Versão 02** 
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 05 - Laço Condicional SE Encadeado** 
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
@@ -502,13 +537,11 @@ programa
 
 Observe o código acima, que ele possui 3 condições: 
 
-​	*I. Se a condição **media maior ou igual a 6 for verdadeira**, será exibida a mensagem: **Parabéns, você foi aprovade!***
+**I.** *Se a condição **media maior ou igual a 6 for verdadeira**, será exibida a mensagem: **Parabéns, você foi aprovade!***	
+**II.** *Se a condição: **media igual a 5** for verdadeira, será exibida a mensagem: **Alune de exame!***	
+**III.** *Se **as duas condições anteriores forem falsas** (SENÃO), será exibida a mensagem: **Infelizmente devo informar que foi reprovado...***
 
-​	*II. Se a condição: **media igual a 5** for verdadeira, será exibida a mensagem: **Alune de exame!***
-
-​	*III. Se **as duas condições anteriores forem falsas** (SENÃO), será exibida a mensagem: **Infelizmente devo informar que foi reprovado...***
-
-Veja os testes para as 3 condições na tabela abaixo:
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
@@ -556,7 +589,7 @@ Veja os testes para as 3 condições na tabela abaixo:
 
 <br />
 
-<h2>1.3. Laço Condicional ESCOLHA CASO</h2>
+<h3>1.3. Laço Condicional ESCOLHA CASO</h3>
 
 **Escolha Caso**, também é um laço condicional, ou seja, uma estrutura de decisão, onde podemos através de premissas indicar qual ação deve-se ter conforme a opção escolhida.
 
@@ -579,15 +612,15 @@ Veja os testes para as 3 condições na tabela abaixo:
 		}
 ```
 
-O Laço Condicional ESCOLHA CASO utiliza uma variável, onde receberemos a opção escolhida pelo usuário e para cada opção teremos um tipo de saída no nosso algoritmo. Este laço é muito utilizado na construção de Menus de opções, onde o usuário digita uma letra ou um número para a escolher um item do Menu.
+O Laço Condicional **ESCOLHA CASO** representa de uma maneira mais simples o encadeamento de estruturas **SE**. É uma forma de reduzir a complexidade de várias estruturas **SE** encadeadas. O conteúdo da **variável** da cláusula **ESCOLHA** é comparado com os valores constantes das cláusulas **CASO**, e caso uma das comparações seja verdadeira, o comando associado é  executado (somente esse comando). Caso nenhuma comparação seja  Verdadeira, a estrutura executará a cláusula  **CASO CONTRARIO**. Este laço é muito utilizado na construção de Menus de opções, onde o usuário digita uma letra ou um número para a escolher um item do Menu.
 
-É importante atentar-se que para cada caso teremos um comando **PARE**, para indicar que acabou as ações para essa opção. A única opção que não adicionaremos o PARE, é a opção CASO CONTRARIO, que só será executada caso todas as opções anteriores sejam falsas. A opção CASO CONTRARIO não é obrigatória.
+É importante atentar-se que para cada caso teremos um comando **PARE**, para indicar que acabou as ações para essa opção. A única opção que não adicionaremos o **PARE**, é a opção **CASO CONTRARIO**, que só será executada caso todas as opções anteriores sejam falsas. A opção **CASO CONTRARIO** não é obrigatória.
 
 <div align="center"><img src="https://i.imgur.com/CMnnqnc.png" title="source: imgur.com" width="80%"/></div>
 
-<br />
+Observe que o comando A será executado somente se o Caso valor 1 for verdadeiro (Sim). O comando B será executado somente se o Caso valor 2 for verdadeiro (Sim). O comando C será executado somente se o Caso valor 1 e o Caso valor 2 forem falsos (Não)
 
-Vamos construir um Menu com 3 opções. De acordo com o numero digitado, uma resposta diferente será exibida na tela:
+Vamos construir no exemplo 6 um Menu com 3 opções. De acordo com o numero digitado, uma resposta diferente será exibida na tela:
 
 <img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 06 - Laço Condicional ESCOLHA CASO** 
 
@@ -637,7 +670,7 @@ Na sequência, cada um dos comandos **CASO** receberá uma das opções do menu:
 - Caso escolhida a opção 1 então exiba o livro
 
 - Caso escolhida a opção 2 então exiba a frase
-- Caso escolhida a opção 2 então exiba a música
+- Caso escolhida a opção 3 então exiba a música
 
 Note que temos apenas 3 opções para esse menu, mas poderíamos dar mais opções de escolha para o usuário. 
 
@@ -659,7 +692,7 @@ Vale lembrar que nesse exemplo acima, se o usuário digitar **outro numero difer
 
 <br />
 
-<h4>1.3.1. Corrigindo o erro (CASO CONTRARIO)</h4>
+<h3>1.3.1. CASO CONTRARIO</h3>
 
 
 Para resolver o problema do processamento sem resposta, podemos reescrever o código acima adicionando a opção **CASO CONTRARIO**, que vai exibir alguma mensagem na tela ou efetuar algum processamento sempre que o usuário digitar qualquer numero diferente de 1, 2 ou 3. Esta opção funciona como uma opção padrão (default).
