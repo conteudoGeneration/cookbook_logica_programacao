@@ -181,6 +181,7 @@ Na sequência, a segunda condição: **Se o valor de y não for verdadeiro** ser
         <td>o valor de x não é verdadeiro</td>
     </tr>
 </table>
+
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 ![Portugol - se - 2 - resultado](https://user-images.githubusercontent.com/8031302/189249294-d7557c6f-bbe9-418e-8607-4df86a3ed2a1.JPG)
