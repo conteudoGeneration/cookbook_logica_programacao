@@ -267,6 +267,7 @@ Observe neste exemplo, que o Laço Condicional SE foi escrito **sem o uso das ch
         <td>Os valores de Número1 e Número3 são iguais</td>
     </tr>
 </table>
+
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
 <div align="center"><img src="https://i.imgur.com/UKrenZI.png" title="source: imgur.com" /></div>
