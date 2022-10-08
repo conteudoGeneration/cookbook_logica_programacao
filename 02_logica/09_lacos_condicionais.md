@@ -746,6 +746,7 @@ Note que no comando **CASO CONTRARIO** não utilizamos o comando **PARE**.
 		<td>Opção inválida!</td>
 	</tr>
 </table>
+
 <img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado esperado do Algoritmo - CASO CONTRARIO:**
 
 <div align="center"><img src="https://i.imgur.com/7io2LDS.png" title="source: imgur.com" /></div>
