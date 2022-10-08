@@ -753,8 +753,7 @@ Note que no comando **CASO CONTRARIO** não utilizamos o comando **PARE**.
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="
-https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br /><br />
 
