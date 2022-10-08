@@ -110,7 +110,7 @@ Observe que cada bloco de código da estrutura se, **tem o seu inicio e fim deli
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_01.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_01.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -339,8 +339,7 @@ programa
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="
-https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -449,8 +448,7 @@ Para comprovar o que foi passado aqui, faça dois testes no algoritmo acima:
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="
-https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -554,8 +552,7 @@ Veja os testes para as 3 condições na tabela abaixo:
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="
-https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -658,8 +655,7 @@ Vale lembrar que nesse exemplo acima, se o usuário digitar **outro numero difer
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="
-https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
