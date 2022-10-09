@@ -616,9 +616,18 @@ O Laço Condicional **ESCOLHA CASO** representa de uma maneira mais simples o en
 
 É importante atentar-se que para cada caso teremos um comando **PARE**, para indicar que acabou as ações para essa opção. A única opção que não adicionaremos o **PARE**, é a opção **CASO CONTRARIO**, que só será executada caso todas as opções anteriores sejam falsas. A opção **CASO CONTRARIO** não é obrigatória.
 
-<div align="center"><img src="https://i.imgur.com/CMnnqnc.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/l8GbQB6.png" title="source: imgur.com" width="80%"/></div>
 
 Observe que o comando A será executado somente se o Caso valor 1 for verdadeiro (Sim). O comando B será executado somente se o Caso valor 2 for verdadeiro (Sim). O comando C será executado somente se o Caso valor 1 e o Caso valor 2 forem falsos (Não)
+
+**Algumas regras importantes para instruções ESCOLHA CASO:** 
+
+- Valores de caso duplicados não são permitidos.
+- O valor para um caso deve ser do mesmo tipo de dados que a variável na instrução escolha. 
+- O valor para um caso deve ser uma constante ou literal. Variáveis não são permitidas.
+- A instrução pare é usada dentro do caso para encerrar uma sequência de instruções.
+- A instrução pare é opcional. Se omitido, a execução continuará no próximo caso.
+- A instrução caso contrario é opcional.
 
 Vamos construir no exemplo 6 um Menu com 3 opções. De acordo com o numero digitado, uma resposta diferente será exibida na tela:
 
@@ -626,7 +635,7 @@ Vamos construir no exemplo 6 um Menu com 3 opções. De acordo com o numero digi
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
-<div align="center"><img src="https://i.imgur.com/9J4tGPO.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/eVLYAG2.png" title="source: imgur.com" /></div>
 
 **Código no Portugol:**
 
@@ -703,15 +712,13 @@ Para resolver o problema do processamento sem resposta, podemos reescrever o có
 
 <img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
-<div align="center"><img src="https://i.imgur.com/sVHEZQV.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/eVLYAG2.png" title="source: imgur.com" /></div>
 
 **Código no Portugol:**
 
 ```pseudocode
 programa
 {
-	
-
 	funcao inicio()
 	{
 		inteiro opcao
