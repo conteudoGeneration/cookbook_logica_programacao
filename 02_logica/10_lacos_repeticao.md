@@ -1,200 +1,353 @@
-# Laços de repetição
+<h1>Laços de Repetição</h1>
 
-Laços de repetição, também conhecidos como loops, são estruturas que permitem repetição de um trecho de código dentro de sua estrutura até que uma determinada condição seja atingida, ou infinitamente.
+Laços de Repetição, também conhecidos como loops, são estruturas que permitem a repetição de um trecho de código dentro de sua estrutura, até que uma determinada condição seja satisfeita, ou infinitamente. 
 
-Para essa finalidade os laços podem que podemos utilizar no Portugol Studio são 3:
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="80px"/> | <div align="left"> **ATENÇÃO:** A condição infinita deve ser evitada, porque ela pode gerar o travamento do seu sistema.</div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-1. Para
-2. Enquanto
-3. Faça ... Enquanto
+Como pessoa desenvolvedora, você deverá conhecer e utilizar os Laços de Repetição sempre que tiver de estruturar sequências de ações que deverão ser executadas repetidamente. Apenas não esqueça de estabelecer uma condição para que o loop seja finalizado.
 
-Nesse material vamos conhecer estas 3 estruturas.
+<h3>Por que utilizamos estruturas de repetição?</h3>
 
-## Por que utilizamos estruturas de repetição?
+Imagine que uma determinada sequencia de execuções/processamentos devem ser repetidos por um número N de vezes, ou ainda, até que alguma condição seja satisfeita, indicando que a repetição deve parar. Essa é a função dos Laços de Repetição.
 
-Imagina que uma determinada sequencia de execuções/ processamentos devem ser repetidos por um número x de vezes, ou ainda, até que algo lhe diga para parar. Essa é a função dessa estrutura.
+<h2>1. Tipos de Laços de Repetição</h2>
 
-### 1.  Para 
+Existem 3 Laços de Repetição no Portugol:
 
-A estrutura **para** deve receber 3 parâmetros, sendo (1)o valor inicial (2) a condição limite (3) um contador.
+1. **Para**
+2. **Enquanto**
+3. **Faça ... Enquanto**
 
-Sendo assim:
+Assim como nos Laços Condicionais, a aplicação de cada uma irá depender do contexto de utilização.
 
-**sintaxe:**
+Vale lembrar que essas estruturas também permitem inserir dentro dos seus blocos, a execução de:
 
-```
-para(inteiro x = 0; x < 4; x++) {
-	processamento ou bloco de código que deve ser repetido até a condição x<4 for falsa
+   - Cálculos;
+   - Laços Condicionais;
+   - Outros Laços de Repetição
+   - Entre outras operações...
+
+<h3> 1.1. Para </h3>
+
+A estrutura **PARA** deve receber 3 parâmetros, sendo:
+
+1) O **valor inicial**;
+2) A **condição limite**; 
+3) O **contador**.
+
+**Sintaxe:**
+
+```pseudocode
+para (valor inicial; condição limite; contador)
+{
+     //Bloco de comandos (corpo do laço de repetição)
 }
 ```
 
-**Entendendo a sintaxe:**
+**Onde:**
 
-(1) o valor inicial, deve ser uma variável de tipo inteiro, esse valor inicial pode ser 0 ou qualquer outro número em que deseja-se iniciar a contagem 
+1. O **valor inicial**, deve ser uma variável do tipo inteiro. Esse valor inicial pode ser 0 ou qualquer outro número para iniciar a contagem, que pode ser incremental ou decremental. 
 
-(2) a condição limite, aqui devemos escrever a condição utilizando dos operadores  >(maior), >= (maior ou igual), <(menor), <= (menor ou igual) e o limite para o valor que pode ser atingido pela nossa variável iniciada no para, nesse caso x.
+2. A **condição limite**, é a condição escrita com os Operadores Relacionais, que define o limite do valor que pode ser atingido pela nossa variável iniciada no para. Nesta expressão, temos que testar a condição. Se a condição for avaliada como verdadeira, executaremos o **corpo do laço de repetição** e **atualizaremos o valor do contador**. Caso contrário, sairemos do laço. 
 
-(3) contador, imaginando que tenho um algoritmo e este inicia-se em 0, podemos somar em zero para até o limite, por exemplo 100. Para isso utilizamos o auto incremento ++ que significa que o valor que esta em x, será somado +1.
+3. Na variável **contador**, nós podemos ter 2 situações:
 
-Vale lembrar que também podemos usar a subtração para o iniciador dessa contagem utilizando o auto decremento --. Nesse caso se nosso contador inicia-se com valor 100, passando pelo -- ele se torna 99, 98 e assim até atingir a condição limite.
+   - Caso o contador inicie em 0, podemos somar um valor no contador até que o limite seja atingido. Para isso utilizaremos o Operador de incremento (++).
 
-**Exercício com o laço de repetição PARA**:
+   - Caso o contador inicie em 10, podemos subtrair um valor no contador até que o limite seja atingido (provavelmente 0). Para isso utilizaremos o Operador de decremento (--).
 
-Um algoritmo deve coletar 3 nomes e exibir os mesmos na tela.
+Na imagem abaixo, podemos visualizar o fluxograma básico do Laço de Repetição **PARA**:
 
-**Teste de mesa para o algoritmo acima**
+<div align="center"><img src="https://i.imgur.com/hOidSwK.png" title="source: imgur.com" /></div>
 
-<table>
-	<tr>
-		<td> Entrada/ Dados</td>
-        <td>Processamento</td>
-        <td>Saída</td>
-	</tr>
-	<tr>
-		<td>cadeia nome, x = 1</td>
-		<td> condição x <= 3 </td>
-		<td>O 1º nome é: [nome digitado]</td>
-	</tr>
-    <tr>
-		<td>cadeia nome, x = 2</td>
-		<td> condição x <= 3 </td>
-		<td>O 2º nome é: [nome digitado]</td>
-	</tr>
-    <tr>
-		<td>cadeia nome, x = 3</td>
-		<td> condição x <= 3 </td>
-		<td>O 3º nome é: [nome digitado]</td>
-	</tr>
-</table>
 
-**Sem o uso de uma estrutura de repetição:**
+**Como o Laço de Repetição PARA é executado?** 
 
-```
+1. O Laço de Repetição **PARA** é inicializado e o **valor inicial** é definido (variável inteira);
+2. O fluxo salta para a **condição limite**;
+3. A **condição limite** é testada;
+   1. Se a Condição for verdadeira, o fluxo vai para o **corpo do laço de repetição**;
+   2. Se a Condição for falsa, o fluxo **sai do laço**.
+4. Caso a condição seja verdadeira, **as instruções dentro do corpo do laço de repetição são executadas**;
+5. Após executar as operações do corpo do laço, o fluxo vai para o **contador e atualiza o seu valor** através do Operador de incremento ou decremento;
+6. Na sequência, o fluxo vai para a etapa 3, testa a condição e repete o fluxo caso a condição seja verdadeira;
+7. Caso a condição seja falsa, o Laço Condicional PARA é finalizado e o fluxo sai do laço.
+
+> **Fluxo** é a sequência de comandos que devem ser executados dentro do programa. Lembre-se que todo programa escrito em Portugol tem um inicio e um final, o que está entre eles é o fluxo.
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 01 - Laço de Repetição PARA**
+
+Neste exemplo vamos criar um algoritmo que deve receber via teclado os nomes de 3 pessoas e exibir na tela.
+
+Primeiro, vamos criar uma primeira versão do código, sem utilizar o Laço de repetição. Na sequência, vamos criar a segunda versão do código, utilizando o Laço de repetição, para compararmos as 2 soluções:
+
+**Código no Portugol sem o uso do Laço de Repetição**
+
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
-		cadeia nome1,nome2,nome3
+		cadeia nome1, nome2, nome3
+		
 		escreva("Digite o 1º nome\n")
 		leia(nome1)
-		escreva("\nO 1º nome é: "+nome1)	
+		escreva("\nO 1º nome é: ", nome1, "\n")	
 
-		escreva("Digite o 2º nome\n")
-		leia(n2)
-		escreva("\nO 2º nome é: "+nome2)
+		escreva("\nDigite o 2º nome\n")
+		leia(nome2)
+		escreva("\nO 2º nome é: ", nome2, "\n")
 
-		escreva("Digite o 3º nome\n")
-		leia(n3)
-		escreva("\nO 3º nome é: "+nome3)	
+		escreva("\nDigite o 3º nome\n")
+		leia(nome3)
+		escreva("\nO 3º nome é: ", nome3)	
 	}
 
 }
 ```
 
-**Com uso da estrutura de repetição (Para)**
+Observe que nesta primeira versão do código, sem o Laço de repetição, foi necessário criar uma variável para cada nome, além dos comandos de entrada e saída, deixando o nosso código extenso e consumindo memória desnecessária com tantas variáveis.
 
-```
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+Na sequência, vamos desenvolver a segunda versão, utilizando o Laço de Repetição:
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa - Versão com Laço de Repetição:**
+
+<table>
+	<tr>
+        <td><b>Entrada</b></td>
+        <td><b>Processamento</b></td>
+        <td><b>Saída</b></td>
+	</tr>
+	<tr>
+		<td>cadeia nome, contador = 1</td>
+		<td> condição contador <= 3 </td>
+		<td>O 1º nome é: [nome digitado]</td>
+	</tr>
+    <tr>
+		<td>cadeia nome, contador = 2</td>
+		<td> condição contador <= 3 </td>
+		<td>O 2º nome é: [nome digitado]</td>
+	</tr>
+    <tr>
+		<td>cadeia nome, contador = 3</td>
+		<td>condição contador <= 3 </td>
+		<td>O 3º nome é: [nome digitado]</td>
+	</tr>
+</table>
+
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma - Versão com Laço de Repetição:**
+
+<div align="center"><img src="https://i.imgur.com/Tx7bVag.png" title="source: imgur.com" /></div>
+
+<br />
+
+**Código no Portugol  - Versão com Laço de Repetição PARA:**
+
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
 		cadeia nome
-		para(inteiro x =1; x <4; x++)
+		para(inteiro contador =1; contador <4; contador ++)
 		{
-			escreva("Digite o "+x+"º nome\n")
+			escreva("\nDigite o ", contador, "º nome\n")
 			leia(nome)
-			escreva("\nO "+x+"º nome é: "+nome)
+			escreva("\nO ", contador, "º nome é: ", nome, "\n")
 		}
 	}
 }
 ```
 
-Os dois códigos acima estão realizando a mesma operação recebem 3 nomes e escrevem na tela os 3 nomes, até aqui tudo bem... Mas imagine se precisássemos escrever um algoritmo que recebe 27 nomes, ou 140 nomes. Você acredito que seria viável utilizar o modelo sem a estrutura de repetição ou com a estrutura de repetição?
+ <br />
 
-Sempre que pudermos utilizar de recursos que evite caminhos mais longos e códigos extensos precisamos avaliar e aplicar essas soluções, afinal é muito mais simples vc ler um código com 20 linhas do que um código de 580 linhas de código, além de ser muito cansativo ter o trabalho de digitar muitas linhas de código, isso exige muito mais concentração, tempo e realizar manutenções futuramente, caso o cliente desejar mudar algum requisito(regra de negócio).
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
-**Resultado esperado:**
+<div align="center"><img src="https://i.imgur.com/hPZjbkx.png" title="source: imgur.com" /></div>
 
-![para](https://user-images.githubusercontent.com/8031302/192410533-84836ecc-9c63-4eee-89e1-e57bcbfd7a5d.JPG)
+Observe que nesta segunda versão do código, com o Laço de repetição, foi necessário criar apenas uma variável para receber os nomes, além de reduzir os comandos de entrada e saída, deixando o nosso código mais simples.
 
-**Leitura do código:**
+<br />
 
-```
-para(inteiro x =1; x <4; x++)
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+Ao executar os dois códigos acima, veremos que ambos estão realizando a mesma operação:
+
+- Lê os 3 nomes via teclado;
+
+- Exibe os 3 nomes na tela.
+
+Comparando as 2 versões, Imagine se precisássemos escrever um algoritmo que receberá 30 nomes?, ou 120 nomes? Você acredita que seria viável utilizar o modelo sem o Laço de Repetição?
+
+Sempre que pudermos utilizar os recursos da linguagem, que evitam caminhos mais longos e códigos extensos, devemos avaliar e aplicar essas soluções, afinal é muito mais simples você ler um código com 15 linhas, do que ler um código com 600 linhas.
+
+Observe no código acima, escrito com o Laço de Repetição, que:
+
+1. A **variável contador,  foi inicializada com o valor 1**. 
+2. A condição **enquanto contador for menor do que 4** é a **condição** que será testada para definir se o fluxo continua o processamento do corpo do laço de repetição, ou sai do laço. 
+3. A operação incremental, **somar mais 1 ao valor anterior do contador**, sempre será executada depois que a condição for validada, mas note que antes ele executa todo o bloco do Laço de Repetição **PARA**.
+
+Vale lembrar que na instrução **contador ++**, o **++** é o Operador de incremento, que soma 1 ao valor da variável, ou seja, é o mesmo que escrevermos **contador = contador + 1**, ou **contador +=1**.
+
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *Os Operadores utilizados para comparar e/ou escrever as condições do Laço de Repetição PARA estão disponíveis no conteúdo: <a href="07_operadores.md" target="_blank">Operadores</a>. Caso você tenha alguma dúvida, não deixe de rever este conteúdo!*</div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+Dentro do bloco **PARA**, temos as instruções que devem ser repetidas, enquanto a nossa condição (**contador < 4**) for verdadeira. Observe que o **corpo do laço de repetição** é um **bloco de comandos escritos dentro das chaves { }**.
+
+> Na programação, as 2 chaves { } são chamadas de **escopo**. 
+
+Observe que o bloco de código do Laço de Repetição **PARA**, **tem o seu inicio e fim delimitados por 2 chaves { }**, como mostra a imagem abaixo:
+
+<div align="center"><img src="https://i.imgur.com/bVVyVnM.png" title="source: imgur.com" /></div>
+
+<br />
+
+Quando a condição (**contador < 4**) deixará de ser verdadeira? 
+
+*A condição deixará de ser verdadeira a partir do momento que o valor da variável contador for igual a 4.* 
+
+| <img src="https://i.imgur.com/L338M2G.png" title="source: imgur.com" width="100px"/> | **DESAFIO:** *Altere a condição contador < 4 para contador < 6, execute o programa novamente e veja como o programa se comporta.* |
+| ------------------------------------------------------------ | :----------------------------------------------------------- |
+
+Se você fez o desafio, observará que **ao invés de pedir 3 nomes, serão solicitados 5 nomes**.
+
+Vamos escrever outro exemplo com o Laço de Repetição **PARA**. 
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 02 - Laço de Repetição PARA - Tabuada**
+
+Neste exemplo, vamos construir um Algoritmo que recebe um numero inteiro via teclado e exibe na tela a tabuada deste numero. 
+
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
+
+<div align="center"><img src="https://i.imgur.com/cPCl8L8.png" title="source: imgur.com" /></div>
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
+
+| Entrada                   | Processamento                  | Saída                  |
+| ------------------------- | ------------------------------ | ---------------------- |
+| numero = 5                |                                |                        |
+| numero = 5, contador = 1  | contador é menor ou igual a 10 | numero * contador = 5  |
+| numero = 5, contador = 2  | contador é menor ou igual a 10 | numero * contador = 10 |
+| numero = 5, contador = 3  | contador é menor ou igual a 10 | numero * contador = 15 |
+| numero = 5, contador = 4  | contador é menor ou igual a 10 | numero * contador = 20 |
+| numero = 5, contador = 5  | contador é menor ou igual a 10 | numero * contador = 25 |
+| numero = 5, contador = 6  | contador é menor ou igual a 10 | numero * contador = 30 |
+| numero = 5, contador = 7  | contador é menor ou igual a 10 | numero * contador = 35 |
+| numero = 5, contador = 8  | contador é menor ou igual a 10 | numero * contador = 40 |
+| numero = 5, contador = 9  | contador é menor ou igual a 10 | numero * contador = 45 |
+| numero = 5, contador = 10 | contador é menor ou igual a 10 | numero * contador = 50 |
+
+**Código no Portugol**
+
+```pseudocode
+programa
 {
-```
+	
+	funcao inicio()
+	{
+		inteiro numero
 
-Para a **variável X, nossa variável contadora, que inicia seu valor com 1**, **enquanto X for menor que quatro** é a condição, **somar mais 1 ao valor anterior de X** (aqui após a condição ser validada o valor de X passa a valer 2, mas note que antes ele executa todo o bloco do para, tudo que precisa ser executado/processado)
+		escreva("Digite a Tabuada que você deseja calcular: \n")
+		leia(numero)
+		
+		para(inteiro contador=1; contador<=10; contador++)
+		{
+			
+			escreva("\n", numero, " x ", contador, " = ", numero * contador)
+			
+		}
 
-Vale lembrar que o **x++** é uma variável contadora ou auto incremente, isso porque o ++ faz o valor dessa variável ser somado +1, então x++ é o mesmo que escrevermos **x = x+1**, ou **x +=1**.
-
-```
-			escreva("Digite o "+x+"º nome\n")
-			leia(nome)
-			escreva("\nO "+x+"º nome é: "+nome)
-```
-
-Acima temos o processamento que se dá dentro do bloco **PARA**, ou seja, será essas as instruções que devem ser repetidas na execução, até a nossa condição **X<4** deixar de ver verdadeira. E quando isso acontece? **X** deixará de ser menor que quatro a partir que ela passar a valer o valor 4. 
-
-Aqui dentro desse bloco, pode-se trabalhar todo e qualquer tipo de processamento, incluindo:
-
-- Cálculos;
-- Laços de decisão;
-- Laços de repetição;
-- entre outras operações...
-
-```
+	}
 }
-escreva("essa linha de comando, esta fora do laço de repetição")
 ```
 
-Aqui temos a finalização dessa estrutura que assim como iniciamos com **{** vamos finalizar em **}**. Tente realizar um teste colocando um texto em um comando escreva, após esse sinal de fecha chaves **}**, note que essa instrução irá aparecer na tela apenas uma única vez.
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
-**Vale lembrar que os sinais utilizados para comparar, ou escrever essas condições estão no material:**
+<div align="center"><img src="https://i.imgur.com/9BNELgr.png" title="source: imgur.com" /></div>
 
-[Material Operadores](https://github.com/rafaelq80/cookbook_logica_programacao/blob/main/02_logica/07_operadores.md)
+Observe no código acima, que para calcular a tabuada **multiplicamos o numero digitado pelo contador**. A **variável X (variável contadora),  foi inicializada com o valor 1**. A condição que será testada é **enquanto X for menor ou igual 10** (Tabuada inicia em 1 e termina em 10). A operação incremental **somar mais 1 ao valor anterior de X** é o nosso **contador**.
 
-### 2. Enquanto
+<br />
 
-A estrutura **ENQUANTO**, também é um laço de repetição, em geral utilizadas quando não sabemos o valor final para a condição dessa repetição. Um ponto importante é que para as exercícios que vamos propor resolver com o PARA, estes também podem ser resolvidos com o ENQUANTO, mas o contrário ou seja, para os exercícios propostos a solução com o ENQUANTO, muitas vezes não teremos como utilizar o PARA para resolver... isso devido a própria estrutura do PARA que te obriga a iniciar o valor da variável contadora já dentro da estrutura do PARA, para o ENQUANTO isso não acontece.
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
-**Exercício com modelo ENQUANTO:**
+<br />
 
-Escreva um algoritmo que some dois valores, o algoritmo deve exibir na tela o resultado da soma, e deve ser repetido o processo de receber os valores n1 e n2 até que o usuário informe que não deseja mais realizar novos cálculos. 
+<h3>2. ENQUANTO</h3>
+
+**ENQUANTO** é um Laço de Repetição, geralmente utilizado quando não conhecemos o valor final da condição dessa repetição. 
+
+**Sintaxe:**
+
+```pseudocode
+enquanto (condição limite)
+{
+     //Bloco de comandos (corpo do laço de repetição)
+}
+```
+
+O Laço de Repetição **ENQUANTO** permite que o código seja  executado repetidamente com base em uma determinada condição booleana. Ele pode ser considerado uma instrução **SE** de repetição. Observe que diferente do Laço de Repetição **PARA**, o laço **ENQUANTO** possui apenas a **condição limite**. Na imagem abaixo, podemos visualizar o fluxograma básico do Laço de Repetição **ENQUANTO**:
+
+<div align="center"><img src="https://i.imgur.com/uMLXcJD.png" title="source: imgur.com" /></div>
+
+| <img src="https://i.imgur.com/vVDBDG0.png" title="source: imgur.com" width="150px"/> | <div align="left"> **ALERTA DE BSM:** *Mantenha a Atenção aos Detalhes. Os exemplos apresentados com o Laço PARA, também podem ser resolvidos com o Laço ENQUANTO. O inverso não é verdadeiro, porque a maioria dos casos resolvidos com o Laço ENQUANTO não podem ser resolvidos com o Laço PARA.* </div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 03 - Laço de Repetição ENQUANTO**
+
+Escreva um algoritmo que leia dois valores via teclado e efetue a soma dos dois valores. O algoritmo deve exibir na tela o resultado da soma e perguntar se deseja realizar uma nova soma com outros 2 números. Este processo deve ser repetido até que o usuário digite a letra '**n**' na resposta da pergunta acima, indicando que não deseja mais realizar novos cálculos. 
+
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
+
+<div align="center"><img src="https://i.imgur.com/QIwIeeE.png" title="source: imgur.com" /></div>
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
 <table>
 	<tr>
-		<td> Entrada/ Dados</td>
-        <td>Condição</td>
-        <td>Processamento</td>
-        <td>Saída</td>
+		<td><b>Entrada</b></td>
+        <td><b>Condição</b></td>
+        <td><b>Processamento</b></td>
+        <td><b>Saída</b></td>
 	</tr>
 	<tr>
-		<td>inteiro N1 e N2 e Resultado, caracter continua</td>
-		<td> continua != 'n'</td>
-        <td> Escreva n1, ler o valor n1, escreva n2 ler o valor n2, resultado = n1+n2</td>
-		<td>O resultado da soma é: "+resultado</td>
+		<td>inteiro N1, N2,Resultado<br />caracter continua = 's'</td>
+		<td>continua != 'n'</td>
+        <td>Leia o valor de n1<br />Leia o valor de n2<br />resultado = n1+n2</td>
+		<td>Exibir resultado<br />Leia continua</td>
 	</tr>
 </table>
+**Código no Portugol**
 
-```
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
 		caracter continua = 's'
-		inteiro n1,n2,resultado
+		inteiro numero1, numero2, resultado
 
 		enquanto(continua !=  'n')
 		{
 			escreva("\nDigite primeiro valor: ")
-			leia(n1)
+			leia(numero1)
 			escreva("\nDigite segundo valor: ")
-			leia(n2)
+			leia(numero2)
 	
-			resultado = n1+n2
+			resultado = numero1 + numero2
 	
-			escreva("\nO resultado da soma é: "+resultado)
+			escreva("\nO resultado da soma é: ", resultado)
 	
 			escreva("\n++++++++++++++++MENU++++++++++++++++++\n")
 			escreva("\nDeseja somar dois valores?")
@@ -206,193 +359,181 @@ programa
 }
 ```
 
-**Leitura do código:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado do Algoritmo:**
 
-```
-caracter continua = 's'
-```
+![enquanto](https://user-images.githubusercontent.com/8031302/192410236-7c7a56a9-b7f0-4778-9d7f-f26c93063ba7.JPG)
 
-Aqui temos a nossa variável utilizada para a condição do laço sendo iniciada e declarada fora da estrutura em questão, o ENQUANTO, diferente do modelo anterior. Isso nos permite por exemplo iniciar a nossa variável com um valor positivo para a condição e até mesmo pedir para o usuário através de uma entrada de dado definir, quanto a repetição deve parar.
+Observe que criamos e inicializamos a variável continua fora do Laço de Repetição **ENQUANTO**, para criar a condição de saída do laço, diferente do Laço de Repetição **PARA**, onde a variável foi criada no próprio laço. Isso nos permite, por exemplo, iniciar a nossa variável um valor ou ler via teclado um valor que indicará quando a repetição deve parar.
 
-Também é possível utilizar essa estrutura para executar por x vezes a repetição, como informado anteriormente, podemos criar um contador e fazer a mesma operação utilizada para o modelo PARA.
+Também é possível utilizar essa estrutura para executar por N vezes a repetição, semelhante ao Laço de Repetição **PARA**. 
 
-Vale lembrar que essa estrutura também permite dentro de seu bloco, a execução de:
+<h3><img src="https://i.imgur.com/n3pe9ab.png" title="source: imgur.com" />Exercício Resolvido</h3>
 
-- Cálculos;
-- Laços de decisão;
-- Laços de repetição;
-- entre outras operações...
+Escreva um algoritmo que leia 3 números via teclado, multiplique cada numero por 3 e mostre na tela o resultado de cada cálculo. 
 
-**Exercício:**
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado esperado do Algoritmo:**
 
-Escreva um algoritmo que recebe 3 números e multiplique-os por 3, e escreva o resultado de cada cálculo. 
+<div align="center"><img src="https://i.imgur.com/RT3ax5c.png" title="source: imgur.com" /></div>
 
-```
+**Como resolver???** 
+
+Ao resolver um algoritmo é necessário analisar o que se pede antes de começar a escrever o código. Para a analisar o algoritmo proposto, podemos separar as informações do enunciado do exercício em 4 etapas fundamentais: 
+
+1. **Entrada**
+2. **Condição**
+3. **Processamento**
+4. **Saída**
+
+<br />
+
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
+
+| Quais são as entradas?   | Qual é a condição?               | Qual é o processamento?    | Qual será a saída?                      |
+| ------------------------ | -------------------------------- | -------------------------- | --------------------------------------- |
+| Numero<br />Contador = 1 | Contador deve ser menor do que 4 | 1.Cálculo da multiplicação | 1.Resultado do cálculo da multiplicação |
+
+Veja o código sendo executado passo a passo na animação abaixo:
+
+<div align="center"><img src="https://i.imgur.com/NfvWo1N.gif" title="source: imgur.com" /></div>
+
+**Código no Portugol:**
+
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
-		inteiro x =1 , resultado, numero
+		inteiro contador =1 , resultado, numero
 	
-		enquanto(x<4)
+		enquanto(contador<4)
 		{
-			escreva("Digite o valor do "+x+ ":\n")
+			escreva("\nDigite o ", contador, "º número:\n")
 			leia(numero)
 	
-			resultado = numero *3 
-			escreva("\nO resultado do valor informado multiplicado por 3 é: "+resultado)
+			resultado = numero * 3 
+			escreva("\n", numero, " x 3 = ", resultado)
 			escreva("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
 	
-			x++
+			contador ++
 		}
 		escreva("\t\t_________Fim do programa_________")
 	}
 }
 ```
 
-**Resultado esperado:**
+Observe que na declaração das variáveis, inicializamos a variável **contador** com o **valor 1**. Essa variável é equivalente ao **contador** do laço **PARA**. Como não temos o item contador dentro da instrução **enquanto**, precisamos atender essa necessidade fora dela, para que o nosso algoritmo consiga identificar a quantidade de repetições e parar dentro da condição indicada. É importante reforçar que o valor do contador pode ser iniciado com qualquer número inteiro, conforme a necessidade do seu algoritmo.
 
-![enquanto](https://user-images.githubusercontent.com/8031302/192410236-7c7a56a9-b7f0-4778-9d7f-f26c93063ba7.JPG)
+Note que dentro da instrução **enquanto** estamos definindo a seguinte condição: **enquanto o contador for menor do que 4, continue lendo valores via teclado e multiplicando cada valor por 3**, ou seja, a repetição acontecerá enquanto o contador possuir os valores 1, 2 ou 3.
 
-**Leitura do código:**
+Observe que dentro do bloco do laço **ENQUANTO**, após as ações de leitura do número e do cálculo da multiplicação, foi incluído o incremento da variável contador (**contador ++**), para controlar o numero de vezes que o laço deve ser repetido.
 
-```
-inteiro x =1 , resultado, numero
-```
+<br />
 
-declaração das variáveis que vamos fazer uso em nossa aplicação, aqui note que iniciamos x com o valor 1, essa variável será nosso contador, se observar o modelo de exercício com a estrutura PARA, notaremos que a estrutura tem um contador X++, como não temos esse contador no corpo da condição da estrutura ENQUANTO, precisamos atender essa necessidade fora da condição, para nosso algoritmo conseguir enxergar a quantidade de repetições e parar dentro da condição indicada. É importante reforçar que o valor do contador pode ser iniciado com qualquer número inteiro, conforme a necessidade.
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exercicio.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
-enquanto(x<4)
-		{
+<br />
 
-Para o comando acima, estamos definindo a condição que deve ser atendida para o laço de repetição ser executado. No caso teremos a condição de X ser menor que o valor 4, sendo assim a repetição acontece para o x tendo valor 1,2 ou 3.
-```
-	escreva("Digite o valor do "+x+ ":\n")
-	leia(numero)
-	
-	resultado = numero *3 
-	escreva("\nO resultado do valor informado multiplicado por 3 é: "+resultado)
-						  escreva("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
-```
-As linhas acima são as ações de receber o valor de número, passado pelo usuário e realizar o cálculo desejado, para cada execução desse bloco ficar mais organizado esteticamente, optei por inserir uma linha com sinal +++, mas trata-se apenas de estética.
+<h3>1.3. Faça ... Enquanto</h3>
 
-Podemos também ver o valor de x se alterando a cada repetição da nossa estrutura, para isso basta observar o valor exibido na frase, **"Digite o valor do "+x+ ":"** -> aqui temos ao executar o código, onde esta o X, a saída do valor de X para essa repetição.
+Todos nós já tivemos uma pessoa próxima que primeiro faz e depois pergunta, correto. Essa pessoa é o **FAÇA ENQUANTO**, ele executa ao menos uma vez o código, isso porque ele primeiro executa o laço a primeira vez e depois verifica a condição. 
 
-```
-x++
+**Sintaxe:**
+
+```pseudocode
+faca
+{
+     //Bloco de comandos (corpo do laço de repetição)
+}enquanto (condição limite)
 ```
 
-Aqui, na ausência de um contador nativo dentro da condição, como acontece no PARA, estamos incluindo ainda dentro do bloco da estrutura ENQUANTO o contador **x++**
+Observe na Sintaxe do laço, que comparando com os outros Laços de Repetição, o **FAÇA ENQUANTO** possui a estrutura invertida.
 
-```
-}
-```
+Para entendermos melhor essa diferença, vamos escrever um algoritmo com o laço **ENQUANTO** e na sequência vamos reescrever o mesmo algoritmo com o laço **FACA ENQUANTO**, para visualizar as diferenças entre os comportamentos dos dois laços.
 
-Por último, finalizamos o bloco de repetição, tudo que estiver após esse sinal não deve repetir.
+<br />
 
-### 3. Faça ... Enquanto
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 04 - Laço de Repetição FACA...ENQUANTO**
 
-Todos nós já tivemos uma pessoa próxima que primeiro faz e depois pergunta, correto. Essa pessoa é o FAÇA ENQUANTO, ele executa ao menos uma vez o código, isso porque ele primeiro roda o primeiro loop para depois então ele verificar a condição, isso por que ele realmente tem sua estrutura invertida em comparação aos outros laços de repetição.
+Escreva um algoritmo que leia um numero via teclado e multiplica ele por 5, até o contador atingir o valor limite menor ou igual a 2, iniciando o nosso contador em 3.
 
-> Para melhor visualização da diferença entre essa estrutura e a anterior, vou escrever um algoritmo com a estrutura ENQUANTO e reescrever com o FACA ENQUANTO, a ideia é realmente visualizar as diferenças entre os comportamentos.
+<img src="https://i.imgur.com/xNGQtIG.png" title="source: imgur.com" width="3%"/>**Fluxograma:**
 
-**Exercício proposto**:
+<div align="center"><img src="https://i.imgur.com/W4yikog.png" title="source: imgur.com" /></div>
 
-Escrever um algoritmo que recebe um valor e multiplica ele por 5, até o contador atingir o valor limite menor igual a 2, iniciando o nosso contador em 3.
+<img src="https://i.imgur.com/YzghAGF.png" title="source: imgur.com" width="3%"/>**Teste de Mesa**
 
-<table>
-	<tr>
-		<td> Entrada/ Dados</td>
-        <td>Condição</td>
-        <td>Processamento</td>
-        <td>Saída</td>
-	</tr>
-	<tr>
-		<td>inteiro x =3, n, resultado</td>
-		<td> X<=2 </td>
-        <td> resultado = n * 5</td>
-		<td>"O resultado da multiplicação é: "+resultado</td>
-	</tr>
-</table>
+| Quais são as entradas?                  | Qual é a condição?                   | Qual é o processamento?    | Qual será a saída?                      |
+| --------------------------------------- | ------------------------------------ | -------------------------- | --------------------------------------- |
+| inteiro contador = 3, numero, resultado | Contador deve ser menor ou igual a 3 | 1.Cálculo da multiplicação | 1.Resultado do cálculo da multiplicação |
 
-```
+**Código no Portugol - Laço de Repetição ENQUANTO**
+
+
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
-		inteiro x=3, n, resultado
-		enquanto(x<=2)
+		inteiro contador = 3, numero, resultado
+		
+		enquanto(contador<=2)
 		{
 			escreva("\nDigite um número inteiro: ")
-			leia(n)
-			resultado = n*5
-			escreva("\nO resultado da multiplicação é: "+resultado)
+			leia(numero)
+			resultado = numero*5
+			escreva("\nO resultado da multiplicação é: ", resultado)
 		}
 	}
 }
 ```
 
-> OBS o código escrito na estrutura ENQUANTO, ao ser executado não trará nenhum resultado exibido no console, isso porque, ele já tem a condição dele informada como falsa, já que o valor de x não é menor e nem igual a 2.
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado esperado do Algoritmo:**
 
-Abaixo teremos o mesmo algoritmo agora atendido com a estrutura FACA...ENQUANTO
+<div align="center"><img src="https://i.imgur.com/oaV0ICV.png" title="source: imgur.com" /></div>
 
-```
+Observe que o código acima irá falhar! Por um simples motivo: a variável contador é maior do que 2. Logo o Laço não será executado.
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
+<br />
+
+**Código no Portugol - Laço de Repetição FACA...ENQUANTO**
+
+```pseudocode
 programa
 {
 	funcao inicio()
 	{
-		inteiro x=3, n, resultado
+		inteiro contador = 3, numero, resultado
 		faca
 		{
 			escreva("\nDigite um número inteiro: ")
-			leia(n)
-			resultado = n*5
-			escreva("\nO resultado da multiplicação é: "+resultado)
-		}enquanto(x<=2)
+			leia(numero)
+			resultado = numero*5
+			escreva("\nO resultado da multiplicação é: ", resultado)
+		}enquanto(contador<=2)
 	}
 }
 ```
-  **Resultado esperado**:
-  ![facaenquanto](https://user-images.githubusercontent.com/8031302/192409487-ddfc6101-58cb-4ab4-bbb1-2475b9eb5f3b.JPG)
+<img src="https://i.imgur.com/V2ReOnx.png" title="source: imgur.com" width="3%"/>**Resultado esperado do Algoritmo:**
 
-Ao executar o código acima, teremos o bloco de código dentro do FACA executado mesmo que o valor da condição já esteja entendido como falsa. Essa estrutura é válida quando precisamos informar a saída na tela pelo menos uma vez, um exemplo prático do mundo real, seria escrever um script onde em um formulário o campo telefone deve ser exibido ao menos uma vez, mas ainda assim podemos repetir mais campos de telefone caso o usuário queira registrar mais de um número de telefone.
+<div align="center"><img src="https://i.imgur.com/vJw9ZCP.png" title="source: imgur.com" /></div>
 
-**Leitura do código**:
+Ao executar o código acima, teremos o bloco de código dentro do laço **FACA**, que será executado pelo menos uma vez, mesmo que o valor da condição seja falsa. Essa estrutura é válida quando precisamos gerar um processamento ou uma saída na tela pelo menos uma vez, antes de testar a condição. Após executar o laço uma vez, a condição da instrução **enquanto** será validada.
 
-```
-faca
-		{
-```
+Um exemplo prático do mundo real, seria escrever um algoritmo que possua um formulário contendo o campo telefone, que deve ser exibido ao menos uma vez, mas ainda assim podemos repetir mais campos de telefone caso o usuário queira registrar mais de um número de telefone.
 
-Inicio da estrutura FACA, a partir do sinal de abre chaves { estamos iniciando o bloco de comandos que devem ser executados enquanto a condição for verdadeira, lembrando que esse bloco será executado ao menos uma vez.
+<br />
 
-```
-			escreva("\nDigite um número inteiro: ")
-			leia(n)
-			resultado = n*5
-			escreva("\nO resultado da multiplicação é: "+resultado)
-```
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
-O bloco de instruções que se encontra dentro da função FACA e portanto será executado em repetição até a condição deixar de ser verdadeira ou ao menos 1 vez.
+<br />
 
-```
-}enquanto(x<=2)
-```
+| <img src="https://i.imgur.com/vVDBDG0.png" title="source: imgur.com" width="150px"/> | <div align="left"> **ALERTA DE BSM:** *Mantenha a Orientação ao Futuro. Realizar a prática dos exercícios aqui apresentados vai tornar seu aprendizado ainda mais assertivo. Não deixe de praticar e experimentar fazer mudanças nos parâmetros dos exemplos, para compreender o funcionamento dos Laços de Repetição.** </div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-A linha acima indica o final do bloco da nossa estrutura de repetição e a condição que deve ser atendida.
+<br /><br />
 
-> *Atenção dev, é importante realizar a prática dos exercícios aqui apresentados, isso vai tornar seu aprendizado ainda mais assertivo*
-
-Vale lembrar que essa estrutura também permite dentro de seu bloco, a execução de:
-
-- Cálculos;
-
-- Laços de decisão;
-
-- Laços de repetição;
-
-- entre outras operações...
-
-  
-
-
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
