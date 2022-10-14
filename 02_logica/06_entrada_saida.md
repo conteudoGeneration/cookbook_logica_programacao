@@ -336,6 +336,46 @@ Observe que todas as linhas do código possuem comentários. A Execução do pro
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v4.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
+<br />
+
+<h2>4. Limpar o Console</h2>
+
+O comando **limpa()** tem a função de limpar todas as mensagens do exibidas no Console.
+
+**Sintaxe:** 
+
+```pseudocode
+	limpa()
+```
+
+<img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="2%"/>**Exemplo 06 - Limpar o Console**
+
+```pseudocode
+programa
+{
+	
+	funcao inicio()
+	{
+		// Exibe a mensagem Olá Mundo!
+		escreva("Olá Mundo")
+
+		// Limpa o Console
+		limpa()
+
+		// Exibe uma nova mensagem no Console
+		escreva("O Console está limpo!")
+
+	}
+}
+
+```
+
+Observe que a mensagem **Olá Mundo** foi apagada e uma nova mensagem foi exibida no seu lugar.
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/limpa_console.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+
 <br /><br />
 
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="2%"/>Voltar</a></div>
