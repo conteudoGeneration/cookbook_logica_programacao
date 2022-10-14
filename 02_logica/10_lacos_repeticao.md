@@ -396,6 +396,13 @@ Veja o código sendo executado passo a passo na animação abaixo:
 
 <div align="center"><img src="https://i.imgur.com/NfvWo1N.gif" title="source: imgur.com" /></div>
 
+<br />
+
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="100px"/> | <div align="left">**DICA:** *Caso você tenha alguma dívida sobre a opção Executar o código Passo a passo do Portugol Studio, consulte o conteúdo: <a href="08_teste_mesa.md" target="_blank">Teste de Mesa</a>.*</div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
+
 **Código no Portugol:**
 
 ```pseudocode
