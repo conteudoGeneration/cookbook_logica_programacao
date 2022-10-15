@@ -53,7 +53,7 @@ programa
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/hello_World.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/hello_World.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -88,7 +88,7 @@ programa
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -133,7 +133,7 @@ Observe na imagem acima, que **todas as variáveis foram exibidas uma em cada li
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -181,7 +181,7 @@ programa
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/leia_uma_frase.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/leia_uma_frase.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -238,7 +238,7 @@ Observe na imagem acima que:
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -334,7 +334,7 @@ Observe que todas as linhas do código possuem comentários. A Execução do pro
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v4.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/entrada_saida_variaveis_v4.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -374,7 +374,7 @@ Observe que a mensagem **Olá Mundo** foi apagada e uma nova mensagem foi exibid
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/limpa_console.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/entrada_saida/limpa_console.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br /><br />
 

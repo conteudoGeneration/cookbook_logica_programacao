@@ -117,7 +117,7 @@ Observe que cada bloco de código da estrutura se, **tem o seu inicio e fim deli
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_01.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_01.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -198,7 +198,7 @@ Note que o operador **nao**, inverteu o resultado do **Exemplo 01**. Nesta segun
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -308,7 +308,7 @@ Observe que apenas as saídas do primeiro e do terceiro Laço Condicional SE for
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_03.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/se_simples_03.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -373,7 +373,7 @@ programa
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -483,7 +483,7 @@ Para comprovar o que foi passado aqui, faça dois testes no algoritmo acima:
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -585,7 +585,7 @@ Observe o código acima, que ele possui 3 condições:
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/media_v3.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -697,7 +697,7 @@ Vale lembrar que nesse exemplo acima, se o usuário digitar **outro numero difer
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -789,7 +789,7 @@ Note que no comando **CASO CONTRARIO** não utilizamos o comando **PARE**.
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/condicionais/menu_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br /><br />
 

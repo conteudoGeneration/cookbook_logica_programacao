@@ -77,7 +77,7 @@ Neste exemplo foram realizadas algumas operações matemáticas simples, utiliza
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_matematicos.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_matematicos.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -117,7 +117,7 @@ Neste exemplo foram realizadas algumas operações de concatenação de texto, u
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/concatenar_texto.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/concatenar_texto.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -177,7 +177,7 @@ Neste exemplo foram realizadas algumas operações simples, utilizando os Operad
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_atribuicao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_atribuicao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -249,7 +249,7 @@ Neste exemplo foram realizadas algumas operações simples, utilizando os Operad
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_relacionais.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_relacionais.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -438,7 +438,7 @@ Neste exemplo foram realizadas algumas operações simples, utilizando o Operado
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_negacao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_negacao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -519,7 +519,7 @@ Neste exemplo foram realizadas algumas operações simples, utilizando o Operado
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_conjuncao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_conjuncao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -598,7 +598,7 @@ Neste exemplo foram realizadas algumas operações simples, utilizando o Operado
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_disjuncao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/operadores/operadores_logicos_disjuncao.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br /><br />
 

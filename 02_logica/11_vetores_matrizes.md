@@ -115,7 +115,7 @@ Neste exemplo, os dados do vetor foram exibidos na tela acessando posição por 
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_indice.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_indice.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -151,7 +151,7 @@ Observe que o resultado é o mesmo, escrevendo menos código.
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_indice_versao_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_indice_versao_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -199,7 +199,7 @@ Neste exemplo, o vetor foi preenchido com dados obtidos via teclado e ao finaliz
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_leia.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_leia.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -254,7 +254,7 @@ A ideia básica deste Algoritmo de Ordenação, popularmente conhecido como **Bu
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_ordenado.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/vetores/vetor_ordenado.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -366,7 +366,7 @@ Neste exemplo, os dados do vetor foram exibidos na tela acessando posição por 
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_indice.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_indice.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -426,7 +426,7 @@ Neste exemplo, a matriz foi preenchida com dados obtidos via teclado e ao finali
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_leia.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_leia.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -502,7 +502,7 @@ Leia os comentários no código para compreender o algoritmo.
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_soma_colunas.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/matrizes/matriz_soma_colunas.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 

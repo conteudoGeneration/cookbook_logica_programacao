@@ -111,7 +111,7 @@ Observe que nesta primeira versão do código, sem o Laço de repetição, foi n
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -176,7 +176,7 @@ Observe que nesta segunda versão do código, com o Laço de repetição, foi ne
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_01_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -278,7 +278,7 @@ Observe no código acima, que para calcular a tabuada **multiplicamos o numero d
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_02.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -436,7 +436,7 @@ Observe que dentro do bloco do laço **ENQUANTO**, após as ações de leitura d
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exercicio.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exercicio.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -502,7 +502,7 @@ Observe que o código acima irá falhar! Por um simples motivo: a variável cont
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v1.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -534,7 +534,7 @@ Um exemplo prático do mundo real, seria escrever um algoritmo que possua um for
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/repeticao/exemplo_04_v2.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 

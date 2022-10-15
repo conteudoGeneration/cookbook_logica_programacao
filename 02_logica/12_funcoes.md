@@ -207,7 +207,7 @@ programa
 
  <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/funcoes/funcoes.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/funcoes/funcoes.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br />
 
@@ -261,7 +261,7 @@ Neste exemplo, serão solicitados os dados de um colaboradore e a partir dos dad
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/funcoes/funcoes_colaboradore.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="25px"/> <a href="https://github.com/rafaelq80/exemplos_logica/blob/main/funcoes/funcoes_colaboradore.por" target="_blank"><b>Código fonte do exemplo</b></a></div>
 
 <br /><br />
 
