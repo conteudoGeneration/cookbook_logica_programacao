@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://i.imgur.com/Zhu9Tqx.png" title="source: imgur.com" width="40%"/> 
+    <img src="https://imgur.com/ftlllAC.png" title="source: imgur.com" /> 
 </div>
 <h1><img src="https://i.imgur.com/84jPbK6.png" title="source: imgur.com" width="22px"/>Lógica de Programação</h1>
 
@@ -10,16 +10,6 @@
 3. <a href="03.md">Algoritmos na Prática</a>
 4. <a href="04.md">Fluxogramas</a>
 5. <a href="05.md">Introdução a Programação de Computadores</a>
-6. <a href="06.md">Introdução ao Portugol</a>
-7. <a href="07.md" >Variáveis e Constantes</a>
-8. <a href="08.md" >Entrada e Saída de dados</a>
-9. <a href="09.md">Operadores</a>
-10. <a href="10.md">Teste de Mesa</a>
-11. <a href="11.md">Laços Condicionais</a>
-12. <a href="12.md">Laços de repetição</a>
-13. <a href="13.md">Vetores e Matrizes</a>
-14. <a href="14.md">Funções</a>
-15. <a href="15.md">Bibliotecas Portugol</a>
 
 <br />
 
